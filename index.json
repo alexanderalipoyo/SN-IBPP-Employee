@@ -2,6 +2,7 @@
   "stats": {
     "suites": 11,
     "tests": 101,
+<<<<<<< HEAD
     "passes": 94,
     "pending": 0,
     "failures": 6,
@@ -10,6 +11,16 @@
     "duration": 842478,
     "testsRegistered": 101,
     "passPercent": 93.06930693069307,
+=======
+    "passes": 87,
+    "pending": 0,
+    "failures": 13,
+    "start": "2023-06-23T09:20:53.052Z",
+    "end": "2023-06-23T09:42:02.653Z",
+    "duration": 1123552,
+    "testsRegistered": 101,
+    "passPercent": 86.13861386138613,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +29,11 @@
   },
   "results": [
     {
+<<<<<<< HEAD
       "uuid": "a1fb51bb-d2b1-4fc6-a9ef-347402de2850",
+=======
+      "uuid": "dfe2a046-b394-4857-87ed-e05f3b3e8bf2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\newsfeed.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\newsfeed.ts",
@@ -27,7 +42,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "60e27c51-e4be-4997-9c39-31178402a0ae",
+=======
+          "uuid": "b5cafe0c-3c03-42f7-b9ba-afe4c62e4bb4",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "title": "IBPP : Newsfeed - Employee",
           "fullFile": "",
           "file": "",
@@ -38,7 +57,11 @@
               "title": "Default items should visible",
               "fullTitle": "IBPP : Newsfeed - Employee Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 40014,
+=======
+              "duration": 31187,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +70,13 @@
               "context": null,
               "code": "cy.loginPortal();\nSIDE_NAV_BAR.basePoint();\nSIDE_NAV_BAR.viewNewsFeed();\nNEWS_FEED.verifyItemsIfExist('E');\nFOOTER.verifyItemsIfExist('IBPP');\nHEADER.verifyItemsIfExist('E');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "c4f0c451-6871-4ed7-bddb-f2ee3ce40780",
               "parentUUID": "60e27c51-e4be-4997-9c39-31178402a0ae",
+=======
+              "uuid": "4666a017-06ed-4a24-b2db-bd525b7171f4",
+              "parentUUID": "b5cafe0c-3c03-42f7-b9ba-afe4c62e4bb4",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -56,6 +84,7 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "IBPP : Newsfeed - Employee Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 382,
               "state": "passed",
               "speed": "fast",
@@ -67,6 +96,23 @@
               "err": {},
               "uuid": "390d624b-f356-4cab-b0ce-67ad4371a34c",
               "parentUUID": "60e27c51-e4be-4997-9c39-31178402a0ae",
+=======
+              "duration": 20780,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "NEWS_FEED.verifyTextsIfContains('E');\nFOOTER.verifyTextsIfContains('IBPP');\nHEADER.verifyTextsIfContains();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.\n    at ./cypress/page-objects/internal-bpp/partner-admin/footer.ts.footers.verifyTextsIfContains (webpack:///./cypress/page-objects/internal-bpp/partner-admin/footer.ts:35:24)\n    at Context.eval (webpack:///./cypress/e2e/internal-bpp/employee/newsfeed.ts:51:15)",
+                "diff": null
+              },
+              "uuid": "71697a78-ff03-43f7-a8b3-678472cc7e05",
+              "parentUUID": "b5cafe0c-3c03-42f7-b9ba-afe4c62e4bb4",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +120,11 @@
               "title": "Validate Notifications",
               "fullTitle": "IBPP : Newsfeed - Employee Validate Notifications",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 861,
+=======
+              "duration": 493,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,8 +133,13 @@
               "context": null,
               "code": "NEWS_FEED.notifications('E');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "4687869e-e6b4-43e6-9f40-29ea0fe94d4b",
               "parentUUID": "60e27c51-e4be-4997-9c39-31178402a0ae",
+=======
+              "uuid": "cf6b9f74-b983-4bd0-8a07-8feefbae6394",
+              "parentUUID": "b5cafe0c-3c03-42f7-b9ba-afe4c62e4bb4",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -92,7 +147,11 @@
               "title": "Validate Advanced Filters",
               "fullTitle": "IBPP : Newsfeed - Employee Validate Advanced Filters",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 6937,
+=======
+              "duration": 7277,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -101,8 +160,13 @@
               "context": null,
               "code": "NEWS_FEED.advancedFilters();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "39e74b4d-8aa5-489d-ab75-a9b08a5fa9a7",
               "parentUUID": "60e27c51-e4be-4997-9c39-31178402a0ae",
+=======
+              "uuid": "718013af-efb5-4f10-b2d0-bf90d0dbe9fd",
+              "parentUUID": "b5cafe0c-3c03-42f7-b9ba-afe4c62e4bb4",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -110,7 +174,11 @@
               "title": "Validate Sortings",
               "fullTitle": "IBPP : Newsfeed - Employee Validate Sortings",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 4484,
+=======
+              "duration": 4676,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -119,8 +187,13 @@
               "context": null,
               "code": "NEWS_FEED.sortBy();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "58b6e8ef-fb69-43d1-af3e-6435ec96bd45",
               "parentUUID": "60e27c51-e4be-4997-9c39-31178402a0ae",
+=======
+              "uuid": "d6072b01-3871-4928-b3a0-a3f5e72bc7fb",
+              "parentUUID": "b5cafe0c-3c03-42f7-b9ba-afe4c62e4bb4",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -128,7 +201,11 @@
               "title": "Validate Search by Hasthag",
               "fullTitle": "IBPP : Newsfeed - Employee Validate Search by Hasthag",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 1038,
+=======
+              "duration": 1328,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -137,8 +214,13 @@
               "context": null,
               "code": "NEWS_FEED.searchBy('hashtag');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "c406625c-4e64-42a3-b66d-ea8349be57c1",
               "parentUUID": "60e27c51-e4be-4997-9c39-31178402a0ae",
+=======
+              "uuid": "7b96f04c-f112-4c80-96c0-98ea851fdf21",
+              "parentUUID": "b5cafe0c-3c03-42f7-b9ba-afe4c62e4bb4",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -146,7 +228,11 @@
               "title": "Validate Search by Users",
               "fullTitle": "IBPP : Newsfeed - Employee Validate Search by Users",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 1069,
+=======
+              "duration": 1590,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -155,8 +241,13 @@
               "context": null,
               "code": "NEWS_FEED.searchBy('user');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "8a3cbd3c-14f1-465f-9b28-398e2e3f9347",
               "parentUUID": "60e27c51-e4be-4997-9c39-31178402a0ae",
+=======
+              "uuid": "c2a13b61-29bc-48b6-8bb5-4f60888dedcc",
+              "parentUUID": "b5cafe0c-3c03-42f7-b9ba-afe4c62e4bb4",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -164,7 +255,11 @@
               "title": "Negative - Validate MA/M/E (non-internal bpp) does not have authorized to publish a post",
               "fullTitle": "IBPP : Newsfeed - Employee Negative - Validate MA/M/E (non-internal bpp) does not have authorized to publish a post",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 106,
+=======
+              "duration": 182,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -173,8 +268,13 @@
               "context": null,
               "code": "NEWS_FEED.verifyItemsIfExist('E');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "35e4d49d-0d03-4bff-be0c-db98351c8c80",
               "parentUUID": "60e27c51-e4be-4997-9c39-31178402a0ae",
+=======
+              "uuid": "d25fa5b1-b9d0-4764-94d0-001b97b5e84c",
+              "parentUUID": "b5cafe0c-3c03-42f7-b9ba-afe4c62e4bb4",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -182,7 +282,11 @@
               "title": "Edge - Validate Press ENTER key on keyboard on Newsfeed Screen",
               "fullTitle": "IBPP : Newsfeed - Employee Edge - Validate Press ENTER key on keyboard on Newsfeed Screen",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 212,
+=======
+              "duration": 275,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -191,8 +295,13 @@
               "context": null,
               "code": "cy.get(\"body\").type(\"{enter}\");\nNEWS_FEED.verifyItemsIfExist('E');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "d194cad1-80be-4b4c-a2df-954c71da88d2",
               "parentUUID": "60e27c51-e4be-4997-9c39-31178402a0ae",
+=======
+              "uuid": "cd42538c-4a60-4364-aa6a-40d00c7593b4",
+              "parentUUID": "b5cafe0c-3c03-42f7-b9ba-afe4c62e4bb4",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -200,7 +309,11 @@
               "title": "Negative - Validate search on non existing user",
               "fullTitle": "IBPP : Newsfeed - Employee Negative - Validate search on non existing user",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 3225,
+=======
+              "duration": 3346,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -209,8 +322,13 @@
               "context": null,
               "code": "NEWS_FEED.unregisteredUserHashtag('user');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "29c0c38d-ea2c-4803-9e80-72c38d5db9d5",
               "parentUUID": "60e27c51-e4be-4997-9c39-31178402a0ae",
+=======
+              "uuid": "deeb50cd-b808-4008-96aa-b5b136a6119c",
+              "parentUUID": "b5cafe0c-3c03-42f7-b9ba-afe4c62e4bb4",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -218,7 +336,11 @@
               "title": "Negative - Validate search on non existing hashtags",
               "fullTitle": "IBPP : Newsfeed - Employee Negative - Validate search on non existing hashtags",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 3025,
+=======
+              "duration": 3110,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -227,14 +349,20 @@
               "context": null,
               "code": "NEWS_FEED.unregisteredUserHashtag('hashtag');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "242acb76-ad1a-41e2-9f6f-c303549a8cf8",
               "parentUUID": "60e27c51-e4be-4997-9c39-31178402a0ae",
+=======
+              "uuid": "95db9f2a-ace6-4769-ac04-75cdbfb22b94",
+              "parentUUID": "b5cafe0c-3c03-42f7-b9ba-afe4c62e4bb4",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "c4f0c451-6871-4ed7-bddb-f2ee3ce40780",
             "390d624b-f356-4cab-b0ce-67ad4371a34c",
             "4687869e-e6b4-43e6-9f40-29ea0fe94d4b",
@@ -246,11 +374,29 @@
             "d194cad1-80be-4b4c-a2df-954c71da88d2",
             "29c0c38d-ea2c-4803-9e80-72c38d5db9d5",
             "242acb76-ad1a-41e2-9f6f-c303549a8cf8"
+=======
+            "4666a017-06ed-4a24-b2db-bd525b7171f4",
+            "cf6b9f74-b983-4bd0-8a07-8feefbae6394",
+            "718013af-efb5-4f10-b2d0-bf90d0dbe9fd",
+            "d6072b01-3871-4928-b3a0-a3f5e72bc7fb",
+            "7b96f04c-f112-4c80-96c0-98ea851fdf21",
+            "c2a13b61-29bc-48b6-8bb5-4f60888dedcc",
+            "d25fa5b1-b9d0-4764-94d0-001b97b5e84c",
+            "cd42538c-4a60-4364-aa6a-40d00c7593b4",
+            "deeb50cd-b808-4008-96aa-b5b136a6119c",
+            "95db9f2a-ace6-4769-ac04-75cdbfb22b94"
           ],
-          "failures": [],
+          "failures": [
+            "71697a78-ff03-43f7-a8b3-678472cc7e05"
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
+          ],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 61353,
+=======
+          "duration": 74244,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -266,7 +412,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "e01ffc1a-d028-4d98-be3e-e2886873199a",
+=======
+      "uuid": "49b15493-44be-42e4-81ef-1994ea9db221",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\profile.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\profile.ts",
@@ -275,7 +425,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+          "uuid": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "title": "IBPP : General - Employee",
           "fullFile": "",
           "file": "",
@@ -286,7 +440,11 @@
               "title": "Application Menu : Default items should visible",
               "fullTitle": "IBPP : General - Employee Application Menu : Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 31568,
+=======
+              "duration": 33704,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -295,8 +453,13 @@
               "context": null,
               "code": "cy.loginPortal();\nSIDE_NAV_BAR.basePoint();\nSIDE_NAV_BAR.verifyItemsIfExist('E');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "c1c6aaec-416a-4fbf-839c-215da579d34f",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "7d0b6ffc-012b-4073-bb87-fbf95ab37326",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -304,7 +467,11 @@
               "title": "Application Menu : Check texts/labels if visible",
               "fullTitle": "IBPP : General - Employee Application Menu : Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 32,
+=======
+              "duration": 36,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -313,8 +480,13 @@
               "context": null,
               "code": "SIDE_NAV_BAR.verifyTextsIfContains('E');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "6259c44c-4979-43aa-96de-c6d60c7c0c20",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "8fe01b7a-fdcb-49fd-ad83-2585466564dc",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -322,7 +494,11 @@
               "title": "Application Menu : Validate favorite application",
               "fullTitle": "IBPP : General - Employee Application Menu : Validate favorite application",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 15848,
+=======
+              "duration": 16105,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -331,8 +507,13 @@
               "context": null,
               "code": "SIDE_NAV_BAR.favoriteApp();\nCOMM_ELEMENTS.toasterFavApp();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "41190c92-13dc-4bf9-b9a5-ae3705e33353",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "afd81711-6176-47b7-8706-5fb48d686030",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -340,7 +521,11 @@
               "title": "My Profile : Default items and fields should visible",
               "fullTitle": "IBPP : General - Employee My Profile : Default items and fields should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 2130,
+=======
+              "duration": 2468,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -349,8 +534,13 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nMY_PROFILE.verifyItemsIfExist('IBPP', 'E');\nFOOTER.verifyItemsIfExist('IBPP');\nHEADER.verifyItemsIfExist('E');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "fcdc6d18-5754-4c8c-b431-81ef861a6cff",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "5d585e20-025d-43b6-8ab7-92e6ba8e0062",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -358,6 +548,7 @@
               "title": "My Profile : Check texts/labels if visible",
               "fullTitle": "IBPP : General - Employee My Profile : Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 200,
               "state": "passed",
               "speed": "fast",
@@ -369,6 +560,23 @@
               "err": {},
               "uuid": "2b839735-a8c1-4c47-9541-6a6baaad812d",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "duration": 20387,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "MY_PROFILE.verifyTextsIfContains('E');\nFOOTER.verifyTextsIfContains('IBPP');\nHEADER.verifyTextsIfContains();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.\n    at ./cypress/page-objects/internal-bpp/partner-admin/footer.ts.footers.verifyTextsIfContains (webpack:///./cypress/page-objects/internal-bpp/partner-admin/footer.ts:35:24)\n    at Context.eval (webpack:///./cypress/e2e/internal-bpp/employee/profile.ts:73:15)",
+                "diff": null
+              },
+              "uuid": "75c0c1a3-e614-42f8-8836-480606ae4d7f",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -376,7 +584,11 @@
               "title": "My Profile : Update Basic Information",
               "fullTitle": "IBPP : General - Employee My Profile : Update Basic Information",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 18522,
+=======
+              "duration": 23848,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -385,8 +597,13 @@
               "context": null,
               "code": "MY_PROFILE.profile('update_basic_info');\nCOMM_ELEMENTS.toaster('success');\ncy.reload();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "2ff40da7-14a1-4516-a501-81b390b791f8",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "02962346-007b-433a-8443-c30f93fe5ed1",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -394,7 +611,11 @@
               "title": "My Profile (NEGATIVE) : Invalidate Update button with empty mandatory fields",
               "fullTitle": "IBPP : General - Employee My Profile (NEGATIVE) : Invalidate Update button with empty mandatory fields",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 6301,
+=======
+              "duration": 7410,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -403,8 +624,13 @@
               "context": null,
               "code": "MY_PROFILE.profile('clear_all_fields');\ncy.reload();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "9d2a9435-dffc-4581-a859-05afc589892f",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "6618d05b-3b09-4cb8-a941-a3f89165f1ff",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -412,7 +638,11 @@
               "title": "My Profile (NEGATIVE) : Password and verify fields password does not match",
               "fullTitle": "IBPP : General - Employee My Profile (NEGATIVE) : Password and verify fields password does not match",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5216,
+=======
+              "duration": 6411,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -421,8 +651,13 @@
               "context": null,
               "code": "MY_PROFILE.profile('un_matched_password');\ncy.reload();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "d2cf9b08-dd9c-415b-9ce1-4e886deab526",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "aa14eb2e-0522-477b-b569-1720a2396d45",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -430,7 +665,11 @@
               "title": "My Profile (NEGATIVE) : Enter a screen name that has special characters",
               "fullTitle": "IBPP : General - Employee My Profile (NEGATIVE) : Enter a screen name that has special characters",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 3927,
+=======
+              "duration": 3717,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -439,8 +678,13 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_screen_name');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "0f6739d5-afda-41f6-9108-0dfdd9b73e1a",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "2f37e4d4-e393-4843-8bfb-8068a801689c",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -448,7 +692,11 @@
               "title": "My Profile (EDGE CASE) : Add alphabet and special character on phone number",
               "fullTitle": "IBPP : General - Employee My Profile (EDGE CASE) : Add alphabet and special character on phone number",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 502,
+=======
+              "duration": 543,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -457,8 +705,13 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_phone_number');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "036a44b0-8746-4b84-9594-421f83924a5f",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "96c8d479-0681-45db-b61c-68930fcb99bb",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -466,7 +719,11 @@
               "title": "My Profile (EDGE CASE) : Add alphabet and special character on mobile number",
               "fullTitle": "IBPP : General - Employee My Profile (EDGE CASE) : Add alphabet and special character on mobile number",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 475,
+=======
+              "duration": 528,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -475,8 +732,13 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_number');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "e69950e8-bdca-4509-ac04-05f100db8008",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "937a6134-41c7-40a8-aa49-164335aa3173",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -484,7 +746,11 @@
               "title": "My Profile (OOTB) : Able to change country code on phone number",
               "fullTitle": "IBPP : General - Employee My Profile (OOTB) : Able to change country code on phone number",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 2678,
+=======
+              "duration": 3197,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -493,8 +759,13 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_country_code');\ncy.reload();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "d78b773d-dbfc-4350-99d8-dcdf66b070e5",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "762f9842-1531-4e67-9b1c-17f05bb0dcba",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -502,17 +773,26 @@
               "title": "My Profile (OOTB) : Enter a screen name with spaces only",
               "fullTitle": "IBPP : General - Employee My Profile (OOTB) : Enter a screen name with spaces only",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 3963,
+=======
+              "duration": 5191,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "MY_PROFILE.profile('validate_screen_name_with_spaces');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "8465bf37-477a-422c-8316-6c5baf72d14f",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "7a45be96-5b0b-4ce7-a1e3-a2879798f371",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -520,7 +800,11 @@
               "title": "My Profile (OOTB) : Disable update button when mandatory fields are empty",
               "fullTitle": "IBPP : General - Employee My Profile (OOTB) : Disable update button when mandatory fields are empty",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 632,
+=======
+              "duration": 668,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -529,8 +813,13 @@
               "context": null,
               "code": "MY_PROFILE.profile('disable_update_button');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "aae874c8-e279-4ffe-987b-1f88ac4fb6ce",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "4cef78f6-308b-48f7-b1d0-c87e233df611",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -538,7 +827,11 @@
               "title": "My Profile : Validate Password Strength - risk",
               "fullTitle": "IBPP : General - Employee My Profile : Validate Password Strength - risk",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 495,
+=======
+              "duration": 707,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -547,8 +840,13 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "82371d07-0188-4c15-8986-64a53691230a",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "b20ce31a-4537-44d0-8405-cddcfe7650d4",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -556,7 +854,11 @@
               "title": "My Profile : Validate Password Strength - weak",
               "fullTitle": "IBPP : General - Employee My Profile : Validate Password Strength - weak",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 425,
+=======
+              "duration": 665,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -565,8 +867,13 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "027a2e75-1590-42d2-9222-30dab68951b5",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "e6403a41-886e-4d0b-99de-bd3f18f85b8c",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -574,7 +881,11 @@
               "title": "My Profile : Validate Password Strength - fair",
               "fullTitle": "IBPP : General - Employee My Profile : Validate Password Strength - fair",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 624,
+=======
+              "duration": 946,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -583,8 +894,13 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "5e47415c-e656-4fc6-8c0b-ce90c736a2b1",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "8d704811-5c8f-47e6-9619-d8b8e3606abd",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -592,7 +908,11 @@
               "title": "Validate Password Strength - good",
               "fullTitle": "IBPP : General - Employee Validate Password Strength - good",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 631,
+=======
+              "duration": 1035,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -601,8 +921,13 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('good');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "62bd0c0d-8518-49fe-8e94-94480ba50aa0",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "e86eca55-7a52-4357-8b2d-825353e32439",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -610,7 +935,11 @@
               "title": "My Profile : Validate Password Strength - strong",
               "fullTitle": "IBPP : General - Employee My Profile : Validate Password Strength - strong",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 837,
+=======
+              "duration": 1470,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -619,14 +948,20 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "c1753b41-048d-4267-b2a7-5b92ad5652ff",
               "parentUUID": "d422b6de-88ef-4e47-b537-357653d86eff",
+=======
+              "uuid": "32bb2d4a-f684-4b30-9a6a-2d4cfdf8d250",
+              "parentUUID": "601e3908-ac04-49a1-9f44-00cd85bb93d2",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "c1c6aaec-416a-4fbf-839c-215da579d34f",
             "6259c44c-4979-43aa-96de-c6d60c7c0c20",
             "41190c92-13dc-4bf9-b9a5-ae3705e33353",
@@ -646,11 +981,37 @@
             "5e47415c-e656-4fc6-8c0b-ce90c736a2b1",
             "62bd0c0d-8518-49fe-8e94-94480ba50aa0",
             "c1753b41-048d-4267-b2a7-5b92ad5652ff"
+=======
+            "7d0b6ffc-012b-4073-bb87-fbf95ab37326",
+            "8fe01b7a-fdcb-49fd-ad83-2585466564dc",
+            "afd81711-6176-47b7-8706-5fb48d686030",
+            "5d585e20-025d-43b6-8ab7-92e6ba8e0062",
+            "02962346-007b-433a-8443-c30f93fe5ed1",
+            "6618d05b-3b09-4cb8-a941-a3f89165f1ff",
+            "aa14eb2e-0522-477b-b569-1720a2396d45",
+            "2f37e4d4-e393-4843-8bfb-8068a801689c",
+            "96c8d479-0681-45db-b61c-68930fcb99bb",
+            "937a6134-41c7-40a8-aa49-164335aa3173",
+            "762f9842-1531-4e67-9b1c-17f05bb0dcba",
+            "7a45be96-5b0b-4ce7-a1e3-a2879798f371",
+            "4cef78f6-308b-48f7-b1d0-c87e233df611",
+            "b20ce31a-4537-44d0-8405-cddcfe7650d4",
+            "e6403a41-886e-4d0b-99de-bd3f18f85b8c",
+            "8d704811-5c8f-47e6-9619-d8b8e3606abd",
+            "e86eca55-7a52-4357-8b2d-825353e32439",
+            "32bb2d4a-f684-4b30-9a6a-2d4cfdf8d250"
           ],
-          "failures": [],
+          "failures": [
+            "75c0c1a3-e614-42f8-8836-480606ae4d7f"
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
+          ],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 95006,
+=======
+          "duration": 129036,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -666,7 +1027,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "3707b6f7-c990-4d47-9e95-dcde377ab4d0",
+=======
+      "uuid": "25dbdeca-7039-467a-99cf-03526621c703",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\reg_codes.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\reg_codes.ts",
@@ -675,7 +1040,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "2bdbe2ef-3d9a-4fe0-9b65-87ee64c45c88",
+=======
+          "uuid": "0c3bc015-de95-4236-9d93-158389105506",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "title": "IBPP : Add New Employees - Registration codes",
           "fullFile": "",
           "file": "",
@@ -686,7 +1055,11 @@
               "title": "Default items should visible",
               "fullTitle": "IBPP : Add New Employees - Registration codes Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 4271,
+=======
+              "duration": 4320,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -695,8 +1068,13 @@
               "context": null,
               "code": "NEW_USER.register('default_items', null);",
               "err": {},
+<<<<<<< HEAD
               "uuid": "8e7f0da4-2efa-4f27-a59a-b2c5f5df605f",
               "parentUUID": "2bdbe2ef-3d9a-4fe0-9b65-87ee64c45c88",
+=======
+              "uuid": "0c93755f-bdc0-42e7-8107-6acf11e43847",
+              "parentUUID": "0c3bc015-de95-4236-9d93-158389105506",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -704,7 +1082,11 @@
               "title": "Validate successful new user account creation",
               "fullTitle": "IBPP : Add New Employees - Registration codes Validate successful new user account creation",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 10915,
+=======
+              "duration": 12023,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -713,8 +1095,13 @@
               "context": null,
               "code": "NEW_USER.register('add_user', 'success_creation');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "96599585-8c3b-4b53-ba59-30fde46f904b",
               "parentUUID": "2bdbe2ef-3d9a-4fe0-9b65-87ee64c45c88",
+=======
+              "uuid": "7600e0e1-0fee-4202-9d47-f9130dc6cb2d",
+              "parentUUID": "0c3bc015-de95-4236-9d93-158389105506",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -722,7 +1109,11 @@
               "title": "Validate existing user",
               "fullTitle": "IBPP : Add New Employees - Registration codes Validate existing user",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 7402,
+=======
+              "duration": 8030,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -731,8 +1122,13 @@
               "context": null,
               "code": "NEW_USER.register('add_user', 'already_exist');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "0b9a11ed-6da3-4200-adfa-bf715046d82c",
               "parentUUID": "2bdbe2ef-3d9a-4fe0-9b65-87ee64c45c88",
+=======
+              "uuid": "682cec3a-dbb1-4872-a19c-bb19ce4eb3e8",
+              "parentUUID": "0c3bc015-de95-4236-9d93-158389105506",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -740,7 +1136,11 @@
               "title": "Validate existing user",
               "fullTitle": "IBPP : Add New Employees - Registration codes Validate existing user",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 332,
+=======
+              "duration": 426,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -749,8 +1149,13 @@
               "context": null,
               "code": "NEW_USER.register('cancel_creating_user', null);",
               "err": {},
+<<<<<<< HEAD
               "uuid": "6cf0e152-7331-4e28-9a53-8b32f7c5a0cf",
               "parentUUID": "2bdbe2ef-3d9a-4fe0-9b65-87ee64c45c88",
+=======
+              "uuid": "432695b8-5b53-4c54-a7e9-15c7aba93a67",
+              "parentUUID": "0c3bc015-de95-4236-9d93-158389105506",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -758,7 +1163,11 @@
               "title": "Check field validations",
               "fullTitle": "IBPP : Add New Employees - Registration codes Check field validations",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 2029,
+=======
+              "duration": 2245,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -767,8 +1176,13 @@
               "context": null,
               "code": "NEW_USER.register('disable_submit_button', null);",
               "err": {},
+<<<<<<< HEAD
               "uuid": "8fb338af-f482-4014-93f3-c23e62974efc",
               "parentUUID": "2bdbe2ef-3d9a-4fe0-9b65-87ee64c45c88",
+=======
+              "uuid": "4b697585-4e45-4ab0-96b7-9dcf4dca862b",
+              "parentUUID": "0c3bc015-de95-4236-9d93-158389105506",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -776,7 +1190,11 @@
               "title": "Validate matching email and confirm email fields",
               "fullTitle": "IBPP : Add New Employees - Registration codes Validate matching email and confirm email fields",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 6535,
+=======
+              "duration": 8011,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -785,8 +1203,13 @@
               "context": null,
               "code": "NEW_USER.register('validation_fields', 'email_not_matched');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "a1fc25b6-73e2-4508-a678-4e03f0477ea2",
               "parentUUID": "2bdbe2ef-3d9a-4fe0-9b65-87ee64c45c88",
+=======
+              "uuid": "8818543b-59c5-4a4b-9d3c-d47ce23422ae",
+              "parentUUID": "0c3bc015-de95-4236-9d93-158389105506",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -794,7 +1217,11 @@
               "title": "Validate matching password and verify password fields",
               "fullTitle": "IBPP : Add New Employees - Registration codes Validate matching password and verify password fields",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5375,
+=======
+              "duration": 6007,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -803,8 +1230,13 @@
               "context": null,
               "code": "NEW_USER.register('validation_fields', 'passwords_not_matched');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "8038c920-2c60-49f0-8910-8c4812290036",
               "parentUUID": "2bdbe2ef-3d9a-4fe0-9b65-87ee64c45c88",
+=======
+              "uuid": "20ae4e24-0121-48f7-aad6-66c8cd3c2be5",
+              "parentUUID": "0c3bc015-de95-4236-9d93-158389105506",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -812,7 +1244,11 @@
               "title": "Create account : Validate Password Strength - risk",
               "fullTitle": "IBPP : Add New Employees - Registration codes Create account : Validate Password Strength - risk",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 494,
+=======
+              "duration": 564,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -821,8 +1257,13 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "1f3e1317-8408-44cc-8967-1b2cc6c39539",
               "parentUUID": "2bdbe2ef-3d9a-4fe0-9b65-87ee64c45c88",
+=======
+              "uuid": "0442e2d6-470c-45d4-a057-7aa38ca0c36b",
+              "parentUUID": "0c3bc015-de95-4236-9d93-158389105506",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -830,7 +1271,11 @@
               "title": "Create account : Validate Password Strength - weak",
               "fullTitle": "IBPP : Add New Employees - Registration codes Create account : Validate Password Strength - weak",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 515,
+=======
+              "duration": 613,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -839,8 +1284,13 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "a23e590f-b621-4a67-b381-f8bcfc21b68a",
               "parentUUID": "2bdbe2ef-3d9a-4fe0-9b65-87ee64c45c88",
+=======
+              "uuid": "f8f03f6a-4010-4538-9eb1-97c9884331cd",
+              "parentUUID": "0c3bc015-de95-4236-9d93-158389105506",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -848,7 +1298,11 @@
               "title": "Create account : Validate Password Strength - fair",
               "fullTitle": "IBPP : Add New Employees - Registration codes Create account : Validate Password Strength - fair",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 635,
+=======
+              "duration": 703,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -857,8 +1311,13 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "facd8634-8878-4065-ae44-d2aaff6ee3a1",
               "parentUUID": "2bdbe2ef-3d9a-4fe0-9b65-87ee64c45c88",
+=======
+              "uuid": "06d442d6-b100-40b3-89f5-85b080362014",
+              "parentUUID": "0c3bc015-de95-4236-9d93-158389105506",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -866,7 +1325,11 @@
               "title": "Create account : Validate Password Strength - good",
               "fullTitle": "IBPP : Add New Employees - Registration codes Create account : Validate Password Strength - good",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 639,
+=======
+              "duration": 728,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -875,8 +1338,13 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('good');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "38f19c6e-4bcb-4d9a-99d9-87df24251a2a",
               "parentUUID": "2bdbe2ef-3d9a-4fe0-9b65-87ee64c45c88",
+=======
+              "uuid": "7b102e81-777e-4921-b461-5c53560419db",
+              "parentUUID": "0c3bc015-de95-4236-9d93-158389105506",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -884,7 +1352,11 @@
               "title": "Create account : Validate Password Strength - strong",
               "fullTitle": "IBPP : Add New Employees - Registration codes Create account : Validate Password Strength - strong",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 778,
+=======
+              "duration": 873,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -893,14 +1365,20 @@
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "2c4818ba-ba0f-4071-8230-56760f12f2bf",
               "parentUUID": "2bdbe2ef-3d9a-4fe0-9b65-87ee64c45c88",
+=======
+              "uuid": "686e5890-1ac0-45db-839b-6d36c4b5b502",
+              "parentUUID": "0c3bc015-de95-4236-9d93-158389105506",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "8e7f0da4-2efa-4f27-a59a-b2c5f5df605f",
             "96599585-8c3b-4b53-ba59-30fde46f904b",
             "0b9a11ed-6da3-4200-adfa-bf715046d82c",
@@ -913,11 +1391,29 @@
             "facd8634-8878-4065-ae44-d2aaff6ee3a1",
             "38f19c6e-4bcb-4d9a-99d9-87df24251a2a",
             "2c4818ba-ba0f-4071-8230-56760f12f2bf"
+=======
+            "0c93755f-bdc0-42e7-8107-6acf11e43847",
+            "7600e0e1-0fee-4202-9d47-f9130dc6cb2d",
+            "682cec3a-dbb1-4872-a19c-bb19ce4eb3e8",
+            "432695b8-5b53-4c54-a7e9-15c7aba93a67",
+            "4b697585-4e45-4ab0-96b7-9dcf4dca862b",
+            "8818543b-59c5-4a4b-9d3c-d47ce23422ae",
+            "20ae4e24-0121-48f7-aad6-66c8cd3c2be5",
+            "0442e2d6-470c-45d4-a057-7aa38ca0c36b",
+            "f8f03f6a-4010-4538-9eb1-97c9884331cd",
+            "06d442d6-b100-40b3-89f5-85b080362014",
+            "7b102e81-777e-4921-b461-5c53560419db",
+            "686e5890-1ac0-45db-839b-6d36c4b5b502"
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 39920,
+=======
+          "duration": 44543,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -933,7 +1429,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "354ad710-c83d-4d0b-958d-c47d6f56e2cb",
+=======
+      "uuid": "00e9e7e9-8602-4309-a043-055b40537738",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_dark_web.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_dark_web.ts",
@@ -942,7 +1442,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "09ea756a-a3a3-45b5-9502-3892374a0420",
+=======
+          "uuid": "65ce7f00-ecba-44bd-9124-c57b68b6ce32",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "title": "IBPP : Dark Web - Run DWBA",
           "fullFile": "",
           "file": "",
@@ -953,7 +1457,11 @@
               "title": "Default items should visible",
               "fullTitle": "IBPP : Dark Web - Run DWBA Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 33512,
+=======
+              "duration": 29930,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -962,8 +1470,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('default_items');\nFOOTER.verifyItemsIfExist('IBPP');\nHEADER.verifyItemsIfExist('E');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "dc629cf8-c551-4521-a3db-2019cc93e229",
               "parentUUID": "09ea756a-a3a3-45b5-9502-3892374a0420",
+=======
+              "uuid": "28312ad5-4b2d-4603-a5eb-6431063eb14b",
+              "parentUUID": "65ce7f00-ecba-44bd-9124-c57b68b6ce32",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -971,6 +1484,7 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "IBPP : Dark Web - Run DWBA Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 2425,
               "state": "passed",
               "speed": "fast",
@@ -982,6 +1496,23 @@
               "err": {},
               "uuid": "df07e990-777a-465a-8643-0d49a24bc584",
               "parentUUID": "09ea756a-a3a3-45b5-9502-3892374a0420",
+=======
+              "duration": 22510,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "DARK_WEB.validateScenario('text_contains');\nFOOTER.verifyTextsIfContains('IBPP');\nHEADER.verifyTextsIfContains();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.\n    at ./cypress/page-objects/internal-bpp/partner-admin/footer.ts.footers.verifyTextsIfContains (webpack:///./cypress/page-objects/internal-bpp/partner-admin/footer.ts:35:24)\n    at Context.eval (webpack:///./cypress/e2e/internal-bpp/employee/my-dashboard/employee_dark_web.ts:51:15)",
+                "diff": null
+              },
+              "uuid": "917e9d52-feb6-4601-a17d-90c54afa5268",
+              "parentUUID": "65ce7f00-ecba-44bd-9124-c57b68b6ce32",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -989,17 +1520,26 @@
               "title": "Validate check emails associated with any external data breaches",
               "fullTitle": "IBPP : Dark Web - Run DWBA Validate check emails associated with any external data breaches",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 4460,
+=======
+              "duration": 7289,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "DARK_WEB.validateScenario('generate_results');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "4511ea92-f9aa-4f74-91cf-b45eb76078f8",
               "parentUUID": "09ea756a-a3a3-45b5-9502-3892374a0420",
+=======
+              "uuid": "e1767f59-b0c3-43d1-96fe-7457e6732270",
+              "parentUUID": "65ce7f00-ecba-44bd-9124-c57b68b6ce32",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1007,17 +1547,26 @@
               "title": "Validate check emails not associated with any external data breaches",
               "fullTitle": "IBPP : Dark Web - Run DWBA Validate check emails not associated with any external data breaches",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 4773,
+=======
+              "duration": 5656,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "DARK_WEB.validateScenario('good_news');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "8343e7ef-134b-4276-928a-08feec7b751a",
               "parentUUID": "09ea756a-a3a3-45b5-9502-3892374a0420",
+=======
+              "uuid": "dc2102ad-9e46-4d09-b2d1-88ffe42d902c",
+              "parentUUID": "65ce7f00-ecba-44bd-9124-c57b68b6ce32",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1025,7 +1574,11 @@
               "title": "Negative - Invalidate checking with empty email address field",
               "fullTitle": "IBPP : Dark Web - Run DWBA Negative - Invalidate checking with empty email address field",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 2284,
+=======
+              "duration": 1775,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1034,8 +1587,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('empty_email_address');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "54055f95-c7df-4d64-8a6a-6f56e3a22ddb",
               "parentUUID": "09ea756a-a3a3-45b5-9502-3892374a0420",
+=======
+              "uuid": "81737a71-3272-4261-a7af-842a63397356",
+              "parentUUID": "65ce7f00-ecba-44bd-9124-c57b68b6ce32",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1043,7 +1601,11 @@
               "title": "Negative - Invalidate check email with invalid email format",
               "fullTitle": "IBPP : Dark Web - Run DWBA Negative - Invalidate check email with invalid email format",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 2427,
+=======
+              "duration": 2615,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1052,8 +1614,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('email_format');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "7ad8d306-2e28-4dad-8446-a65057697a2f",
               "parentUUID": "09ea756a-a3a3-45b5-9502-3892374a0420",
+=======
+              "uuid": "5a6aa4c2-fb6b-4307-8ca6-e5da7dc6008e",
+              "parentUUID": "65ce7f00-ecba-44bd-9124-c57b68b6ce32",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1061,7 +1628,11 @@
               "title": "Negative -  Validate table results after updating or clearing email address field",
               "fullTitle": "IBPP : Dark Web - Run DWBA Negative -  Validate table results after updating or clearing email address field",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5129,
+=======
+              "duration": 5275,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1070,8 +1641,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('generate_results');\nDARK_WEB.validateScenario('resetting_email');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "bcc6fd24-21b3-4aa0-a968-26420ae3a69f",
               "parentUUID": "09ea756a-a3a3-45b5-9502-3892374a0420",
+=======
+              "uuid": "c1a5b2d2-026c-455f-96d7-427c7b65f72e",
+              "parentUUID": "65ce7f00-ecba-44bd-9124-c57b68b6ce32",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1079,7 +1655,11 @@
               "title": "OOTB - Reset table results after page refresh",
               "fullTitle": "IBPP : Dark Web - Run DWBA OOTB - Reset table results after page refresh",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 7661,
+=======
+              "duration": 5981,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1088,8 +1668,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('reset_table_results');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "87e8867c-c3a6-4275-b834-5efcb82deb1e",
               "parentUUID": "09ea756a-a3a3-45b5-9502-3892374a0420",
+=======
+              "uuid": "e5729ffb-d3ff-48ff-b6ed-7fe7f9e2b5ff",
+              "parentUUID": "65ce7f00-ecba-44bd-9124-c57b68b6ce32",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1097,7 +1682,11 @@
               "title": "OOTB - Validate API results when generating results ",
               "fullTitle": "IBPP : Dark Web - Run DWBA OOTB - Validate API results when generating results ",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 6462,
+=======
+              "duration": 7600,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1106,8 +1695,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('recheck_email_address');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "cd66bad6-4c31-49e0-ba2e-1d9e0d4ab327",
               "parentUUID": "09ea756a-a3a3-45b5-9502-3892374a0420",
+=======
+              "uuid": "f89cab82-e1d3-423a-a129-3a5097d811e7",
+              "parentUUID": "65ce7f00-ecba-44bd-9124-c57b68b6ce32",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1115,7 +1709,11 @@
               "title": "Edge - Validate column sorting",
               "fullTitle": "IBPP : Dark Web - Run DWBA Edge - Validate column sorting",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 20224,
+=======
+              "duration": 21690,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1124,8 +1722,13 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('column_sorting');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "fa586b9e-b8ca-4d55-b931-41eaf2bb5d92",
               "parentUUID": "09ea756a-a3a3-45b5-9502-3892374a0420",
+=======
+              "uuid": "42d254cd-b3fb-4585-87c2-cb0cce554c46",
+              "parentUUID": "65ce7f00-ecba-44bd-9124-c57b68b6ce32",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1133,7 +1736,11 @@
               "title": "Edge - Validate return results on Compromised Data",
               "fullTitle": "IBPP : Dark Web - Run DWBA Edge - Validate return results on Compromised Data",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 4420,
+=======
+              "duration": 7132,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1142,14 +1749,20 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('compromised_data');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "3f1281bc-1fd9-4dc8-9703-b4743ecde291",
               "parentUUID": "09ea756a-a3a3-45b5-9502-3892374a0420",
+=======
+              "uuid": "45cbb76b-439d-4c7f-b1aa-7299b8dfaaee",
+              "parentUUID": "65ce7f00-ecba-44bd-9124-c57b68b6ce32",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "dc629cf8-c551-4521-a3db-2019cc93e229",
             "df07e990-777a-465a-8643-0d49a24bc584",
             "4511ea92-f9aa-4f74-91cf-b45eb76078f8",
@@ -1161,11 +1774,29 @@
             "cd66bad6-4c31-49e0-ba2e-1d9e0d4ab327",
             "fa586b9e-b8ca-4d55-b931-41eaf2bb5d92",
             "3f1281bc-1fd9-4dc8-9703-b4743ecde291"
+=======
+            "28312ad5-4b2d-4603-a5eb-6431063eb14b",
+            "e1767f59-b0c3-43d1-96fe-7457e6732270",
+            "dc2102ad-9e46-4d09-b2d1-88ffe42d902c",
+            "81737a71-3272-4261-a7af-842a63397356",
+            "5a6aa4c2-fb6b-4307-8ca6-e5da7dc6008e",
+            "c1a5b2d2-026c-455f-96d7-427c7b65f72e",
+            "e5729ffb-d3ff-48ff-b6ed-7fe7f9e2b5ff",
+            "f89cab82-e1d3-423a-a129-3a5097d811e7",
+            "42d254cd-b3fb-4585-87c2-cb0cce554c46",
+            "45cbb76b-439d-4c7f-b1aa-7299b8dfaaee"
           ],
-          "failures": [],
+          "failures": [
+            "917e9d52-feb6-4601-a17d-90c54afa5268"
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
+          ],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 93777,
+=======
+          "duration": 117453,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1181,7 +1812,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "452cc587-8251-432a-9e08-dbb07ab5b2ea",
+=======
+      "uuid": "a6ac778d-c18a-4965-adf0-2368c5066a08",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_dashboard.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_dashboard.ts",
@@ -1190,7 +1825,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "69d9e5b4-abec-40fa-a2c5-cd65c0a885bd",
+=======
+          "uuid": "2c734800-5219-47fc-a4f8-dc47e4cc5f4e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "title": "IBPP : Employee - My Dashboard",
           "fullFile": "",
           "file": "",
@@ -1201,7 +1840,11 @@
               "title": "Company Average Employee Secure Score (ESS) : Default items should visible",
               "fullTitle": "IBPP : Employee - My Dashboard Company Average Employee Secure Score (ESS) : Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 34773,
+=======
+              "duration": 40168,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1210,8 +1853,13 @@
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyItemsIfExistESS();\nFOOTER.verifyItemsIfExist(\"IBPP\");\nHEADER.verifyItemsIfExist(\"E\");",
               "err": {},
+<<<<<<< HEAD
               "uuid": "1d411ab2-699c-4c73-8aba-6d827990afae",
               "parentUUID": "69d9e5b4-abec-40fa-a2c5-cd65c0a885bd",
+=======
+              "uuid": "ee075dcd-6913-4536-8370-8dc2ec048f2d",
+              "parentUUID": "2c734800-5219-47fc-a4f8-dc47e4cc5f4e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1219,6 +1867,7 @@
               "title": "Company Average Employee Secure Score (ESS) : Check texts/labels if visible",
               "fullTitle": "IBPP : Employee - My Dashboard Company Average Employee Secure Score (ESS) : Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 1585,
               "state": "passed",
               "speed": "fast",
@@ -1230,6 +1879,23 @@
               "err": {},
               "uuid": "e1936b3f-4a10-41f7-8fbb-068de011fc5a",
               "parentUUID": "69d9e5b4-abec-40fa-a2c5-cd65c0a885bd",
+=======
+              "duration": 22542,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "PARTNER_DASHBOARD.verifyTextsIfContainsESS();\nFOOTER.verifyTextsIfContains(\"IBPP\");\nHEADER.verifyTextsIfContains();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.\n    at ./cypress/page-objects/internal-bpp/partner-admin/footer.ts.footers.verifyTextsIfContains (webpack:///./cypress/page-objects/internal-bpp/partner-admin/footer.ts:35:24)\n    at Context.eval (webpack:///./cypress/e2e/internal-bpp/employee/my-dashboard/employee_dashboard.ts:54:9)",
+                "diff": null
+              },
+              "uuid": "52106e49-d1a6-45d1-8a0f-bbac48f19f1c",
+              "parentUUID": "2c734800-5219-47fc-a4f8-dc47e4cc5f4e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1237,6 +1903,7 @@
               "title": "Company Average ESS Trend : Default items should visible",
               "fullTitle": "IBPP : Employee - My Dashboard Company Average ESS Trend : Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 10797,
               "state": "passed",
               "speed": "slow",
@@ -1248,6 +1915,23 @@
               "err": {},
               "uuid": "12764a19-5b0d-4c6d-81e6-67413fa1f1f8",
               "parentUUID": "69d9e5b4-abec-40fa-a2c5-cd65c0a885bd",
+=======
+              "duration": 37921,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "PARTNER_DASHBOARD.verifyTextsIfContainsESSTrend();\nFOOTER.verifyTextsIfContains(\"IBPP\");\nHEADER.verifyTextsIfContains();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.\n    at ./cypress/page-objects/internal-bpp/partner-admin/footer.ts.footers.verifyTextsIfContains (webpack:///./cypress/page-objects/internal-bpp/partner-admin/footer.ts:35:24)\n    at Context.eval (webpack:///./cypress/e2e/internal-bpp/employee/my-dashboard/employee_dashboard.ts:62:9)",
+                "diff": null
+              },
+              "uuid": "6f81c0c3-ce83-4c85-be72-29102cabde75",
+              "parentUUID": "2c734800-5219-47fc-a4f8-dc47e4cc5f4e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1255,7 +1939,11 @@
               "title": "Company Average ESS Trend : Check texts/labels if visible",
               "fullTitle": "IBPP : Employee - My Dashboard Company Average ESS Trend : Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 10765,
+=======
+              "duration": 17278,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1264,8 +1952,13 @@
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyTextsIfContainsESSTrend();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "e631c738-d0bb-454e-a2c7-ed5deba37c11",
               "parentUUID": "69d9e5b4-abec-40fa-a2c5-cd65c0a885bd",
+=======
+              "uuid": "d51a76d1-06e4-42d2-919b-c505a746a442",
+              "parentUUID": "2c734800-5219-47fc-a4f8-dc47e4cc5f4e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1273,17 +1966,26 @@
               "title": "Improve your ESS : Default items should visible",
               "fullTitle": "IBPP : Employee - My Dashboard Improve your ESS : Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 3883,
+=======
+              "duration": 5906,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyItemsIfExistImproveESS();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "5600a7e6-1347-47a9-a410-cfefb23b68f5",
               "parentUUID": "69d9e5b4-abec-40fa-a2c5-cd65c0a885bd",
+=======
+              "uuid": "16d86503-64bf-4ebb-b1ac-2e1a944be394",
+              "parentUUID": "2c734800-5219-47fc-a4f8-dc47e4cc5f4e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1291,7 +1993,11 @@
               "title": "Improve your ESS : Check texts/labels if visible",
               "fullTitle": "IBPP : Employee - My Dashboard Improve your ESS : Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 1054,
+=======
+              "duration": 1366,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1300,8 +2006,13 @@
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyTextsIfContainsImproveESS();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "0014735c-2379-4d15-a9a6-c025ba77c0c4",
               "parentUUID": "69d9e5b4-abec-40fa-a2c5-cd65c0a885bd",
+=======
+              "uuid": "bb1770f3-55a3-4dc3-8c86-c2c98ca21ed4",
+              "parentUUID": "2c734800-5219-47fc-a4f8-dc47e4cc5f4e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1309,7 +2020,11 @@
               "title": "External Data Breaches : Default items should visible",
               "fullTitle": "IBPP : Employee - My Dashboard External Data Breaches : Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5898,
+=======
+              "duration": 9656,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1318,8 +2033,13 @@
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyItemsIfExistEDB();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "2737148b-2717-44c4-a7b2-d2b583a266ae",
               "parentUUID": "69d9e5b4-abec-40fa-a2c5-cd65c0a885bd",
+=======
+              "uuid": "adc66268-9e3b-480c-baaa-881db5a927d8",
+              "parentUUID": "2c734800-5219-47fc-a4f8-dc47e4cc5f4e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1327,7 +2047,11 @@
               "title": "External Data Breaches : Check texts/labels if visible",
               "fullTitle": "IBPP : Employee - My Dashboard External Data Breaches : Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 3288,
+=======
+              "duration": 4168,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1336,8 +2060,13 @@
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyTextsIfContainsEDB();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "e1806b21-cbdd-4f6e-bf96-19ff67b14213",
               "parentUUID": "69d9e5b4-abec-40fa-a2c5-cd65c0a885bd",
+=======
+              "uuid": "2e558122-6029-4364-956f-934122bd01d1",
+              "parentUUID": "2c734800-5219-47fc-a4f8-dc47e4cc5f4e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1345,7 +2074,11 @@
               "title": "Chart Bar : Default items should visible",
               "fullTitle": "IBPP : Employee - My Dashboard Chart Bar : Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 3308,
+=======
+              "duration": 4663,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1354,8 +2087,13 @@
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyItemsIfExistChart();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "f7488263-c44d-41de-b69b-aa5fd9252289",
               "parentUUID": "69d9e5b4-abec-40fa-a2c5-cd65c0a885bd",
+=======
+              "uuid": "4086a02c-9a68-4b6e-8437-48fb38bfbaea",
+              "parentUUID": "2c734800-5219-47fc-a4f8-dc47e4cc5f4e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1363,7 +2101,11 @@
               "title": "Chart Bar : Check texts/labels if visible",
               "fullTitle": "IBPP : Employee - My Dashboard Chart Bar : Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 3143,
+=======
+              "duration": 4436,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1372,8 +2114,13 @@
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyTextsIfContainsChart();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "4dbf973e-20de-48fd-80de-40bcc1809236",
               "parentUUID": "69d9e5b4-abec-40fa-a2c5-cd65c0a885bd",
+=======
+              "uuid": "24c466e6-1b73-45ab-bb16-e3af6e9af1c5",
+              "parentUUID": "2c734800-5219-47fc-a4f8-dc47e4cc5f4e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1381,17 +2128,26 @@
               "title": "Leaderboard : Default items should visible",
               "fullTitle": "IBPP : Employee - My Dashboard Leaderboard : Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 3875,
+=======
+              "duration": 5706,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyItemsIfExistLB();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "5062cbc3-67e4-4cbc-9326-025e2245bb6b",
               "parentUUID": "69d9e5b4-abec-40fa-a2c5-cd65c0a885bd",
+=======
+              "uuid": "37e2bfcd-374c-45a4-a167-2d967bdb51fb",
+              "parentUUID": "2c734800-5219-47fc-a4f8-dc47e4cc5f4e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1399,7 +2155,11 @@
               "title": "Leaderboard : Check texts/labels if visible",
               "fullTitle": "IBPP : Employee - My Dashboard Leaderboard : Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 1080,
+=======
+              "duration": 2013,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1408,14 +2168,20 @@
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyTextsIfContainsLB();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "5ca30b26-747e-4ce0-8ca4-5dc223c49c46",
               "parentUUID": "69d9e5b4-abec-40fa-a2c5-cd65c0a885bd",
+=======
+              "uuid": "4f881dca-2b41-4772-954f-2232c382f8d8",
+              "parentUUID": "2c734800-5219-47fc-a4f8-dc47e4cc5f4e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "1d411ab2-699c-4c73-8aba-6d827990afae",
             "e1936b3f-4a10-41f7-8fbb-068de011fc5a",
             "12764a19-5b0d-4c6d-81e6-67413fa1f1f8",
@@ -1428,11 +2194,30 @@
             "4dbf973e-20de-48fd-80de-40bcc1809236",
             "5062cbc3-67e4-4cbc-9326-025e2245bb6b",
             "5ca30b26-747e-4ce0-8ca4-5dc223c49c46"
+=======
+            "ee075dcd-6913-4536-8370-8dc2ec048f2d",
+            "d51a76d1-06e4-42d2-919b-c505a746a442",
+            "16d86503-64bf-4ebb-b1ac-2e1a944be394",
+            "bb1770f3-55a3-4dc3-8c86-c2c98ca21ed4",
+            "adc66268-9e3b-480c-baaa-881db5a927d8",
+            "2e558122-6029-4364-956f-934122bd01d1",
+            "4086a02c-9a68-4b6e-8437-48fb38bfbaea",
+            "24c466e6-1b73-45ab-bb16-e3af6e9af1c5",
+            "37e2bfcd-374c-45a4-a167-2d967bdb51fb",
+            "4f881dca-2b41-4772-954f-2232c382f8d8"
           ],
-          "failures": [],
+          "failures": [
+            "52106e49-d1a6-45d1-8a0f-bbac48f19f1c",
+            "6f81c0c3-ce83-4c85-be72-29102cabde75"
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
+          ],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 83449,
+=======
+          "duration": 155823,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1448,7 +2233,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "32c37fcc-192a-46e3-ab32-9004c0d0dee9",
+=======
+      "uuid": "a5325588-246a-4e60-92ee-05ea59195843",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_micro_training.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_micro_training.ts",
@@ -1457,7 +2246,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "f00a8da1-cebc-438c-892f-ef085a39ec78",
+=======
+          "uuid": "fa70be71-5174-47c9-b9e7-0565de318495",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "title": "IBPP : Micro Training",
           "fullFile": "",
           "file": "",
@@ -1468,7 +2261,11 @@
               "title": "Default items should visible",
               "fullTitle": "IBPP : Micro Training Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 29427,
+=======
+              "duration": 31505,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1477,8 +2274,13 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('default_items');\nFOOTER.verifyItemsIfExist('IBPP');\nHEADER.verifyItemsIfExist('E');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "b0f155f3-8a38-4a5f-80ac-fe5bb7c9aa20",
               "parentUUID": "f00a8da1-cebc-438c-892f-ef085a39ec78",
+=======
+              "uuid": "91d69719-5140-497d-a930-90357f0c987b",
+              "parentUUID": "fa70be71-5174-47c9-b9e7-0565de318495",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1486,6 +2288,7 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "IBPP : Micro Training Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 2719,
               "state": "passed",
               "speed": "fast",
@@ -1497,6 +2300,23 @@
               "err": {},
               "uuid": "7d64c527-70fa-4752-8ad5-5fd7639eb72e",
               "parentUUID": "f00a8da1-cebc-438c-892f-ef085a39ec78",
+=======
+              "duration": 23588,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "MICRO_TRAINING.validateScenario('default_texts');\nFOOTER.verifyTextsIfContains('IBPP');\nHEADER.verifyTextsIfContains();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.\n    at ./cypress/page-objects/internal-bpp/partner-admin/footer.ts.footers.verifyTextsIfContains (webpack:///./cypress/page-objects/internal-bpp/partner-admin/footer.ts:35:24)\n    at Context.eval (webpack:///./cypress/e2e/internal-bpp/employee/my-dashboard/employee_micro_training.ts:50:15)",
+                "diff": null
+              },
+              "uuid": "ebb9563b-d2aa-4522-b1b0-0d327c52fbb5",
+              "parentUUID": "fa70be71-5174-47c9-b9e7-0565de318495",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1504,7 +2324,11 @@
               "title": "Validate All existing micro Trainings",
               "fullTitle": "IBPP : Micro Training Validate All existing micro Trainings",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5077,
+=======
+              "duration": 5934,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1513,8 +2337,13 @@
               "context": null,
               "code": "COMM_ELEMENTS.viewItemsPagebyTwoHundred();\nMICRO_TRAINING.validateScenario('all_trainings');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "c6d15258-684d-4451-8ef7-27bf39d1bad3",
               "parentUUID": "f00a8da1-cebc-438c-892f-ef085a39ec78",
+=======
+              "uuid": "f620b854-fa57-4828-9fe1-9355c7d382d1",
+              "parentUUID": "fa70be71-5174-47c9-b9e7-0565de318495",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1522,7 +2351,11 @@
               "title": "Validate all unsubmitted answers on micro trainings",
               "fullTitle": "IBPP : Micro Training Validate all unsubmitted answers on micro trainings",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 24772,
+=======
+              "duration": 34737,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1531,8 +2364,13 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('watch_trainings');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "ba195a42-baa4-4e9e-896e-96e379e5a17a",
               "parentUUID": "f00a8da1-cebc-438c-892f-ef085a39ec78",
+=======
+              "uuid": "58829413-9145-4d92-99f9-6259d7ff1905",
+              "parentUUID": "fa70be71-5174-47c9-b9e7-0565de318495",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1540,7 +2378,11 @@
               "title": "Edge - Validate all answers on micro trainings",
               "fullTitle": "IBPP : Micro Training Edge - Validate all answers on micro trainings",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 20460,
+=======
+              "duration": 24740,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1549,8 +2391,13 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('answered_trainings');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "603e6114-1840-4499-8e68-710b985ff666",
               "parentUUID": "f00a8da1-cebc-438c-892f-ef085a39ec78",
+=======
+              "uuid": "177b6502-88bb-4d89-9ce9-431eae07bf74",
+              "parentUUID": "fa70be71-5174-47c9-b9e7-0565de318495",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1558,7 +2405,11 @@
               "title": "Negative - Validate submission button and answers on submitted trainings",
               "fullTitle": "IBPP : Micro Training Negative - Validate submission button and answers on submitted trainings",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 8790,
+=======
+              "duration": 9420,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1567,8 +2418,13 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('submission');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "c13c4002-5bfc-4bbe-9d48-1a53c75843d5",
               "parentUUID": "f00a8da1-cebc-438c-892f-ef085a39ec78",
+=======
+              "uuid": "f5ed4ef2-4970-4a43-a92e-4dd65ef9e97c",
+              "parentUUID": "fa70be71-5174-47c9-b9e7-0565de318495",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1576,7 +2432,11 @@
               "title": "Negative - Validate disable submission button and answers on submitted trainings",
               "fullTitle": "IBPP : Micro Training Negative - Validate disable submission button and answers on submitted trainings",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 9562,
+=======
+              "duration": 8930,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1585,8 +2445,13 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('disable_submission');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "5ec9f911-c220-4659-85f1-f8502487880b",
               "parentUUID": "f00a8da1-cebc-438c-892f-ef085a39ec78",
+=======
+              "uuid": "5cc284c2-51c3-47a8-82c2-8d94e0c806fe",
+              "parentUUID": "fa70be71-5174-47c9-b9e7-0565de318495",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1594,23 +2459,33 @@
               "title": "Validate answer selections on unsubmitted micto trainings",
               "fullTitle": "IBPP : Micro Training Validate answer selections on unsubmitted micto trainings",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 9849,
+=======
+              "duration": 12409,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
-              "speed": "medium",
+              "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('select_answers');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "a3f4e434-07f3-4091-adfb-efa3b83e81f0",
               "parentUUID": "f00a8da1-cebc-438c-892f-ef085a39ec78",
+=======
+              "uuid": "c2be708d-b961-464b-9541-e16c1dc6c8df",
+              "parentUUID": "fa70be71-5174-47c9-b9e7-0565de318495",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "b0f155f3-8a38-4a5f-80ac-fe5bb7c9aa20",
             "7d64c527-70fa-4752-8ad5-5fd7639eb72e",
             "c6d15258-684d-4451-8ef7-27bf39d1bad3",
@@ -1619,11 +2494,26 @@
             "c13c4002-5bfc-4bbe-9d48-1a53c75843d5",
             "5ec9f911-c220-4659-85f1-f8502487880b",
             "a3f4e434-07f3-4091-adfb-efa3b83e81f0"
+=======
+            "91d69719-5140-497d-a930-90357f0c987b",
+            "f620b854-fa57-4828-9fe1-9355c7d382d1",
+            "58829413-9145-4d92-99f9-6259d7ff1905",
+            "177b6502-88bb-4d89-9ce9-431eae07bf74",
+            "f5ed4ef2-4970-4a43-a92e-4dd65ef9e97c",
+            "5cc284c2-51c3-47a8-82c2-8d94e0c806fe",
+            "c2be708d-b961-464b-9541-e16c1dc6c8df"
           ],
-          "failures": [],
+          "failures": [
+            "ebb9563b-d2aa-4522-b1b0-0d327c52fbb5"
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
+          ],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 110656,
+=======
+          "duration": 151263,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1639,7 +2529,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "bd5a6a1a-39ed-404b-bfe3-44337825db42",
+=======
+      "uuid": "9ba0985c-2154-47e9-a12f-248bab112d3a",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_newsletters.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_newsletters.ts",
@@ -1648,7 +2542,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "2ba282a6-34d9-4378-b45e-94d42611d2f5",
+=======
+          "uuid": "32c34a3a-f990-4afc-964b-6f4f0b2c3912",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "title": "IBPP : Newsletters",
           "fullFile": "",
           "file": "",
@@ -1659,7 +2557,11 @@
               "title": "Default items should visible",
               "fullTitle": "IBPP : Newsletters Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 34494,
+=======
+              "duration": 38104,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1668,8 +2570,13 @@
               "context": null,
               "code": "cy.loginPortal();\nSIDE_NAV_BAR.basePoint();\nSIDE_NAV_BAR.viewMyDashboard();\nNEWSLETTER.viewNewslettersTab();\nNEWSLETTER.validateScenario('default_items');\nFOOTER.verifyItemsIfExist('IBPP');\nHEADER.verifyItemsIfExist('E');\nCOMM_ELEMENTS.viewItemsPagebyTwoHundred();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "f576a7ee-556c-4cf6-9da8-e9f026e5ab84",
               "parentUUID": "2ba282a6-34d9-4378-b45e-94d42611d2f5",
+=======
+              "uuid": "0616ad67-9b2b-4b87-832d-1c011bb13cd8",
+              "parentUUID": "32c34a3a-f990-4afc-964b-6f4f0b2c3912",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1677,6 +2584,7 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "IBPP : Newsletters Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 57,
               "state": "passed",
               "speed": "fast",
@@ -1688,6 +2596,23 @@
               "err": {},
               "uuid": "6bf7a8c2-d968-4d0c-9084-bc4f29da748b",
               "parentUUID": "2ba282a6-34d9-4378-b45e-94d42611d2f5",
+=======
+              "duration": 20272,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "NEWSLETTER.validateScenario('default_texts');\nFOOTER.verifyTextsIfContains('IBPP');\nHEADER.verifyTextsIfContains();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.\n    at ./cypress/page-objects/internal-bpp/partner-admin/footer.ts.footers.verifyTextsIfContains (webpack:///./cypress/page-objects/internal-bpp/partner-admin/footer.ts:35:24)\n    at Context.eval (webpack:///./cypress/e2e/internal-bpp/employee/my-dashboard/employee_newsletters.ts:45:15)",
+                "diff": null
+              },
+              "uuid": "33d0594b-d8e6-4d86-be13-2ca4c6edb9a5",
+              "parentUUID": "32c34a3a-f990-4afc-964b-6f4f0b2c3912",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1695,31 +2620,51 @@
               "title": "Validate newsletters pdf reports",
               "fullTitle": "IBPP : Newsletters Validate newsletters pdf reports",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 2960,
+=======
+              "duration": 5062,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "NEWSLETTER.validateScenario('download_newsletter_pdf');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "f470ade5-5dfd-4fe9-ba48-4344cecc907c",
               "parentUUID": "2ba282a6-34d9-4378-b45e-94d42611d2f5",
+=======
+              "uuid": "fde80242-7bec-43dc-b497-04a2327dcbc5",
+              "parentUUID": "32c34a3a-f990-4afc-964b-6f4f0b2c3912",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "f576a7ee-556c-4cf6-9da8-e9f026e5ab84",
             "6bf7a8c2-d968-4d0c-9084-bc4f29da748b",
             "f470ade5-5dfd-4fe9-ba48-4344cecc907c"
+=======
+            "0616ad67-9b2b-4b87-832d-1c011bb13cd8",
+            "fde80242-7bec-43dc-b497-04a2327dcbc5"
           ],
-          "failures": [],
+          "failures": [
+            "33d0594b-d8e6-4d86-be13-2ca4c6edb9a5"
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
+          ],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 37511,
+=======
+          "duration": 63438,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1735,7 +2680,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "45e4f7ad-679b-47ac-a576-c6dceae8fbff",
+=======
+      "uuid": "0d8f71e7-f88a-4135-b6cc-ec8b357469db",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_policies.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_policies.ts",
@@ -1744,7 +2693,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "96bb0046-c7f6-4cc4-bf36-bc461be56c36",
+=======
+          "uuid": "df6a0dff-a62f-41ea-b3b6-b04507612a70",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "title": "IBPP : Policy & Procedure",
           "fullFile": "",
           "file": "",
@@ -1755,7 +2708,11 @@
               "title": "Reset P & P : Default items should visible",
               "fullTitle": "IBPP : Policy & Procedure Reset P & P : Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 30386,
+=======
+              "duration": 33219,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -1764,8 +2721,13 @@
               "context": null,
               "code": "POLICIES.policyTypes('policies', 'default_items', null);\nFOOTER.verifyItemsIfExist('IBPP');\nHEADER.verifyItemsIfExist('E');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "1ee40470-d32e-450d-af47-630c5a6fc16c",
               "parentUUID": "96bb0046-c7f6-4cc4-bf36-bc461be56c36",
+=======
+              "uuid": "ed7a1ea0-13c8-45cd-b32e-fc21935476cf",
+              "parentUUID": "df6a0dff-a62f-41ea-b3b6-b04507612a70",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1773,6 +2735,7 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "IBPP : Policy & Procedure Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 6606,
               "state": "passed",
               "speed": "medium",
@@ -1784,6 +2747,23 @@
               "err": {},
               "uuid": "711448a8-b126-47fe-a602-2bb0f233c8ea",
               "parentUUID": "96bb0046-c7f6-4cc4-bf36-bc461be56c36",
+=======
+              "duration": 27693,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "POLICIES.policyTypes('policies', 'existing_policies', 'IBPP');\nFOOTER.verifyTextsIfContains('IBPP');\nHEADER.verifyTextsIfContains();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.\n    at ./cypress/page-objects/internal-bpp/partner-admin/footer.ts.footers.verifyTextsIfContains (webpack:///./cypress/page-objects/internal-bpp/partner-admin/footer.ts:35:24)\n    at Context.eval (webpack:///./cypress/e2e/internal-bpp/employee/my-dashboard/employee_policies.ts:54:15)",
+                "diff": null
+              },
+              "uuid": "980a3b3b-1953-47b6-8234-62d52d8b56be",
+              "parentUUID": "df6a0dff-a62f-41ea-b3b6-b04507612a70",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1791,7 +2771,11 @@
               "title": "Acknowledge All policies ",
               "fullTitle": "IBPP : Policy & Procedure Acknowledge All policies ",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5685,
+=======
+              "duration": 7144,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1800,8 +2784,13 @@
               "context": null,
               "code": "POLICIES.agreeAllPolicies('policies');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "b62138c9-64a4-4c37-9947-1222a71c2003",
               "parentUUID": "96bb0046-c7f6-4cc4-bf36-bc461be56c36",
+=======
+              "uuid": "c38d7ad8-df2a-4bf7-a03f-70590b98e860",
+              "parentUUID": "df6a0dff-a62f-41ea-b3b6-b04507612a70",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1809,6 +2798,7 @@
               "title": "Acknowledge All Other policies ",
               "fullTitle": "IBPP : Policy & Procedure Acknowledge All Other policies ",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 22697,
               "state": "failed",
               "speed": null,
@@ -1824,6 +2814,19 @@
               },
               "uuid": "3c428337-29da-4a4b-8f2c-c4bc7421b964",
               "parentUUID": "96bb0046-c7f6-4cc4-bf36-bc461be56c36",
+=======
+              "duration": 19651,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "POLICIES.policyTypes('other_policies', 'default_items', null);\nPOLICIES.agreeAllPolicies('other_policies');\nCOMM_ELEMENTS.hideLoadingScreen();",
+              "err": {},
+              "uuid": "5493e67b-0e9c-4d8c-8ffb-531bd1f65e85",
+              "parentUUID": "df6a0dff-a62f-41ea-b3b6-b04507612a70",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1831,7 +2834,11 @@
               "title": "OOTB - Validate API status when downloading all existing policies",
               "fullTitle": "IBPP : Policy & Procedure OOTB - Validate API status when downloading all existing policies",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5367,
+=======
+              "duration": 6915,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -1840,8 +2847,13 @@
               "context": null,
               "code": "POLICIES.policyTypes('policies', 'validate_api_status', 'IBPP');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "d0a89a25-841e-456f-8625-b0aee3d78fba",
               "parentUUID": "96bb0046-c7f6-4cc4-bf36-bc461be56c36",
+=======
+              "uuid": "68e3b52d-eac3-43fb-8965-0dfd1e80b40d",
+              "parentUUID": "df6a0dff-a62f-41ea-b3b6-b04507612a70",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1849,6 +2861,7 @@
               "title": "OOTB - Validate API status when downloading other policies",
               "fullTitle": "IBPP : Policy & Procedure OOTB - Validate API status when downloading other policies",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 23454,
               "state": "failed",
               "speed": null,
@@ -1864,6 +2877,19 @@
               },
               "uuid": "83ebc991-2589-4d5a-8712-6350c39410b1",
               "parentUUID": "96bb0046-c7f6-4cc4-bf36-bc461be56c36",
+=======
+              "duration": 5478,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "POLICIES.policyTypes('other_policies', 'validate_api_status', null);\nCOMM_ELEMENTS.hideLoadingScreen();",
+              "err": {},
+              "uuid": "7dc649f7-25f7-404d-a838-c95db4b8dce6",
+              "parentUUID": "df6a0dff-a62f-41ea-b3b6-b04507612a70",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1871,7 +2897,11 @@
               "title": "Negative - Hide Created and Modified Date in other policies",
               "fullTitle": "IBPP : Policy & Procedure Negative - Hide Created and Modified Date in other policies",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 3446,
+=======
+              "duration": 4024,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1880,8 +2910,13 @@
               "context": null,
               "code": "POLICIES.policyTypes('other_policies', 'hide_created_modified_date', null);\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "38282c33-ae21-4fe5-93f3-1b9c6d27b350",
               "parentUUID": "96bb0046-c7f6-4cc4-bf36-bc461be56c36",
+=======
+              "uuid": "162d8c11-d131-448c-a241-81a3f3acf3a4",
+              "parentUUID": "df6a0dff-a62f-41ea-b3b6-b04507612a70",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1889,7 +2924,11 @@
               "title": "Negative - Hide Created and Modified Date in other policies",
               "fullTitle": "IBPP : Policy & Procedure Negative - Hide Created and Modified Date in other policies",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 3101,
+=======
+              "duration": 3768,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1898,8 +2937,13 @@
               "context": null,
               "code": "POLICIES.policyTypes('policies', 'hide_created_modified_date', null);\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "60dac591-3a64-4669-a27e-b30677d541cd",
               "parentUUID": "96bb0046-c7f6-4cc4-bf36-bc461be56c36",
+=======
+              "uuid": "c64cf265-cc7a-4b44-b922-06cd477b14ae",
+              "parentUUID": "df6a0dff-a62f-41ea-b3b6-b04507612a70",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1907,17 +2951,26 @@
               "title": "Edge - Validate existing policies via modal",
               "fullTitle": "IBPP : Policy & Procedure Edge - Validate existing policies via modal",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 4739,
+=======
+              "duration": 6621,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "POLICIES.viewModalOtherPolicy('policies');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "1564c86a-6d51-47c4-926a-259b4fb695da",
               "parentUUID": "96bb0046-c7f6-4cc4-bf36-bc461be56c36",
+=======
+              "uuid": "3c8b4915-1ec1-41e4-9b90-012688d94ded",
+              "parentUUID": "df6a0dff-a62f-41ea-b3b6-b04507612a70",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -1925,6 +2978,7 @@
               "title": "Edge - Validate other policies via modal",
               "fullTitle": "IBPP : Policy & Procedure Edge - Validate other policies via modal",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 522,
               "state": "failed",
               "speed": null,
@@ -1940,12 +2994,26 @@
               },
               "uuid": "e5e991cb-2770-4e98-95ae-13ed9eb504ff",
               "parentUUID": "96bb0046-c7f6-4cc4-bf36-bc461be56c36",
+=======
+              "duration": 6569,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "COMM_ELEMENTS.hideLoadingScreen();\nPOLICIES.viewModalOtherPolicy('other_policies');\nCOMM_ELEMENTS.hideLoadingScreen();",
+              "err": {},
+              "uuid": "417a43c3-9610-4174-b2af-72d8afb5e6e8",
+              "parentUUID": "df6a0dff-a62f-41ea-b3b6-b04507612a70",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "1ee40470-d32e-450d-af47-630c5a6fc16c",
             "711448a8-b126-47fe-a602-2bb0f233c8ea",
             "b62138c9-64a4-4c37-9947-1222a71c2003",
@@ -1962,6 +3030,24 @@
           "pending": [],
           "skipped": [],
           "duration": 106003,
+=======
+            "ed7a1ea0-13c8-45cd-b32e-fc21935476cf",
+            "c38d7ad8-df2a-4bf7-a03f-70590b98e860",
+            "5493e67b-0e9c-4d8c-8ffb-531bd1f65e85",
+            "68e3b52d-eac3-43fb-8965-0dfd1e80b40d",
+            "7dc649f7-25f7-404d-a838-c95db4b8dce6",
+            "162d8c11-d131-448c-a241-81a3f3acf3a4",
+            "c64cf265-cc7a-4b44-b922-06cd477b14ae",
+            "3c8b4915-1ec1-41e4-9b90-012688d94ded",
+            "417a43c3-9610-4174-b2af-72d8afb5e6e8"
+          ],
+          "failures": [
+            "980a3b3b-1953-47b6-8234-62d52d8b56be"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 121082,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1977,7 +3063,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "6a6b0e49-54ca-49fc-ba9e-b01cbfe421a6",
+=======
+      "uuid": "f64b1764-f44e-4da0-83e7-57b30321a98f",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_training.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_training.ts",
@@ -1986,7 +3076,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "4253f5e7-8575-40dc-b3c1-f8ed9e576447",
+=======
+          "uuid": "f8223bc3-5e1f-4c7e-a385-275ef1de1482",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "title": "IBPP : Training",
           "fullFile": "",
           "file": "",
@@ -1997,7 +3091,11 @@
               "title": "Default items should visible",
               "fullTitle": "IBPP : Training Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 30400,
+=======
+              "duration": 31106,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2006,8 +3104,13 @@
               "context": null,
               "code": "TRAINING.validateScenario('default_items', 'IBPP', 'E');\nFOOTER.verifyItemsIfExist('IBPP');\nHEADER.verifyItemsIfExist('E');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "8cf74ff2-9eba-42e2-a19e-a3bc0df70493",
               "parentUUID": "4253f5e7-8575-40dc-b3c1-f8ed9e576447",
+=======
+              "uuid": "a7d69eeb-6f4a-4b0e-a285-734f2bd512a2",
+              "parentUUID": "f8223bc3-5e1f-4c7e-a385-275ef1de1482",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -2015,7 +3118,11 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "IBPP : Training Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 2796,
+=======
+              "duration": 2897,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -2024,8 +3131,13 @@
               "context": null,
               "code": "TRAINING.viewTrainingTab();\nTRAINING.validateScenario('default_texts', 'IBPP', 'E');\nFOOTER.verifyItemsIfExist('IBPP');\nHEADER.verifyItemsIfExist('E');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "ebf4063b-a3cf-4e03-a1f3-9ac365f5d060",
               "parentUUID": "4253f5e7-8575-40dc-b3c1-f8ed9e576447",
+=======
+              "uuid": "3161523b-46a6-4610-b65d-037aa7795a88",
+              "parentUUID": "f8223bc3-5e1f-4c7e-a385-275ef1de1482",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -2033,7 +3145,11 @@
               "title": "Validate Cybersecurity Training Videos",
               "fullTitle": "IBPP : Training Validate Cybersecurity Training Videos",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 28633,
+=======
+              "duration": 30916,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2042,8 +3158,13 @@
               "context": null,
               "code": "TRAINING.validateScenario('security_training_videos', 'IBPP', null);",
               "err": {},
+<<<<<<< HEAD
               "uuid": "5449b6ed-0c0c-44ea-a3fc-51a001d53b69",
               "parentUUID": "4253f5e7-8575-40dc-b3c1-f8ed9e576447",
+=======
+              "uuid": "9a9ffd1a-438d-4623-8384-dcc2901545d8",
+              "parentUUID": "f8223bc3-5e1f-4c7e-a385-275ef1de1482",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -2051,7 +3172,11 @@
               "title": "Edge - Validate Security Quiz",
               "fullTitle": "IBPP : Training Edge - Validate Security Quiz",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 25414,
+=======
+              "duration": 26438,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -2064,8 +3189,13 @@
                 "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `[name=\"question0\"]`, but never found it.\n    at ./cypress/page-objects/internal-bpp/partner-admin/my-dashboard/training.ts.myDashboardTraining.validateScenario (webpack:///./cypress/page-objects/internal-bpp/partner-admin/my-dashboard/training.ts:422:23)\n    at Context.eval (webpack:///./cypress/e2e/internal-bpp/employee/my-dashboard/employee_training.ts:65:17)",
                 "diff": null
               },
+<<<<<<< HEAD
               "uuid": "e3deddb8-5908-4bc1-83b4-2bcaf8805841",
               "parentUUID": "4253f5e7-8575-40dc-b3c1-f8ed9e576447",
+=======
+              "uuid": "b74a6107-78da-4619-9a96-3f11c72aa3f0",
+              "parentUUID": "f8223bc3-5e1f-4c7e-a385-275ef1de1482",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -2073,7 +3203,11 @@
               "title": "Edge - Validate Reviewing Security Quiz",
               "fullTitle": "IBPP : Training Edge - Validate Reviewing Security Quiz",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 20866,
+=======
+              "duration": 20772,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -2086,8 +3220,13 @@
                 "estack": "CypressError: Timed out retrying after 20050ms: `cy.click()` failed because this element:\n\n`<span class=\"menu-label\">My Dash...</span>`\n\nis being covered by another element:\n\n`<div class=\"MuiDialog-container-53 MuiDialog-scrollPaper-51\" role=\"none presentation\" tabindex=\"-1\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n\nBecause this error occurred during a `before each` hook we are skipping all of the remaining tests.\n    at ensureIsDescendent (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:139711:76)\n    at ensureDescendents (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:139762:5)\n    at ensureDescendentsAndScroll (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:139768:14)\n    at ensureElIsNotCovered (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:139899:5)\n    at runAllChecks (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:140079:52)\n    at retryActionability (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:140116:16)\n    at tryCatcher (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:18744:23)\n    at Promise.attempt.Promise.try (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:16018:29)\n    at whenStable (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:156384:65)\n    at <unknown> (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:155825:14)\n    at tryCatcher (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:18744:23)\n    at Promise._settlePromiseFromHandler (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:16679:31)\n    at Promise._settlePromise (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:16736:18)\n    at Promise._settlePromise0 (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:16781:10)\n    at Promise._settlePromises (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:16861:18)\n    at Promise._fulfill (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:16805:18)\n    at <unknown> (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:18419:46)\nFrom Your Spec Code:\n    at ./cypress/page-objects/internal-bpp/partner-admin/menu_nav.ts.sideNavBar.basePoint (webpack:///./cypress/page-objects/internal-bpp/partner-admin/menu_nav.ts:171:25)\n    at Context.eval (webpack:///./cypress/e2e/internal-bpp/employee/my-dashboard/employee_training.ts:30:17)",
                 "diff": null
               },
+<<<<<<< HEAD
               "uuid": "5630e0fb-753c-4da6-bd86-f164936c7f93",
               "parentUUID": "4253f5e7-8575-40dc-b3c1-f8ed9e576447",
+=======
+              "uuid": "33cb95f3-e134-4ec4-ab09-c99123e94999",
+              "parentUUID": "f8223bc3-5e1f-4c7e-a385-275ef1de1482",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -2104,8 +3243,13 @@
               "context": null,
               "code": "TRAINING.validateScenario('retake_security_quiz', 'IBPP', null);\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "111f73b0-0da9-4888-b036-d81e9de24199",
               "parentUUID": "4253f5e7-8575-40dc-b3c1-f8ed9e576447",
+=======
+              "uuid": "dc0c0d92-f588-4b36-b86f-48ad0d6efd61",
+              "parentUUID": "f8223bc3-5e1f-4c7e-a385-275ef1de1482",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": true
             },
@@ -2126,14 +3270,20 @@
                 "estack": "CypressError: Timed out retrying after 20050ms: `cy.click()` failed because this element:\n\n`<a class=\"MuiButtonBase-root-24 MuiListItem-root-31 MuiMenuItem-root-28 jss25 Toolbar__ToolbarMenuLink-sc-1vvl95k-4 GdROD MuiMenuItem-gutters-29 MuiListItem-gutters-36 MuiListItem-button-37\" tabindex=\"0\" role=\"menuitem\" aria-disabled=\"false\" data-ga-button=\"Logout\" href=\"#/logout\">...</a>`\n\nis being covered by another element:\n\n`<div class=\"MuiDialog-container-53 MuiDialog-scrollPaper-51\" role=\"none presentation\" tabindex=\"-1\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at ensureIsDescendent (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:139711:76)\n    at ensureDescendents (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:139762:5)\n    at ensureDescendentsAndScroll (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:139768:14)\n    at ensureElIsNotCovered (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:139899:5)\n    at runAllChecks (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:140079:52)\n    at retryActionability (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:140116:16)\n    at tryCatcher (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:18744:23)\n    at Promise.attempt.Promise.try (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:16018:29)\n    at whenStable (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:156384:65)\n    at <unknown> (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:155825:14)\n    at tryCatcher (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:18744:23)\n    at Promise._settlePromiseFromHandler (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:16679:31)\n    at Promise._settlePromise (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:16736:18)\n    at Promise._settlePromise0 (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:16781:10)\n    at Promise._settlePromises (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:16861:18)\n    at Promise._fulfill (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:16805:18)\n    at <unknown> (https://portal.pii-protect.com/__cypress/runner/cypress_runner.js:18419:46)\nFrom Your Spec Code:\n    at Context.eval (webpack:///./cypress/support/commands.ts:115:24)",
                 "diff": null
               },
+<<<<<<< HEAD
               "uuid": "564d23c3-9d71-4c5f-9a57-9bc4568bcec8",
               "parentUUID": "4253f5e7-8575-40dc-b3c1-f8ed9e576447",
+=======
+              "uuid": "072564ea-5349-46cf-a850-3bde3c11514b",
+              "parentUUID": "f8223bc3-5e1f-4c7e-a385-275ef1de1482",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "8cf74ff2-9eba-42e2-a19e-a3bc0df70493",
             "ebf4063b-a3cf-4e03-a1f3-9ac365f5d060",
             "5449b6ed-0c0c-44ea-a3fc-51a001d53b69"
@@ -2148,6 +3298,22 @@
             "111f73b0-0da9-4888-b036-d81e9de24199"
           ],
           "duration": 108109,
+=======
+            "a7d69eeb-6f4a-4b0e-a285-734f2bd512a2",
+            "3161523b-46a6-4610-b65d-037aa7795a88",
+            "9a9ffd1a-438d-4623-8384-dcc2901545d8"
+          ],
+          "failures": [
+            "b74a6107-78da-4619-9a96-3f11c72aa3f0",
+            "33cb95f3-e134-4ec4-ab09-c99123e94999",
+            "072564ea-5349-46cf-a850-3bde3c11514b"
+          ],
+          "pending": [],
+          "skipped": [
+            "dc0c0d92-f588-4b36-b86f-48ad0d6efd61"
+          ],
+          "duration": 112129,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -2163,7 +3329,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "48523a4c-908d-4ec5-b7c0-9fd2f3a62d99",
+=======
+      "uuid": "291e2283-2a6b-4618-a5af-1385429d86c9",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\partner-profile\\billing_report.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\partner-profile\\billing_report.ts",
@@ -2172,7 +3342,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "3f9b8ce9-0713-48c9-b3d3-6b479060524c",
+=======
+          "uuid": "79a43c1f-018b-4b83-9716-1b596afef340",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "title": "IBPP : Employee - Billing Report",
           "fullFile": "",
           "file": "",
@@ -2183,7 +3357,11 @@
               "title": "Default items should visible",
               "fullTitle": "IBPP : Employee - Billing Report Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 28403,
+=======
+              "duration": 30060,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2192,8 +3370,13 @@
               "context": null,
               "code": "BILLING_REPORT.verifyItemsIfExist();\nFOOTER.verifyItemsIfExist('IBPP');\nHEADER.verifyItemsIfExist('E');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "f1543b2d-7ee9-4070-b251-53661145261a",
               "parentUUID": "3f9b8ce9-0713-48c9-b3d3-6b479060524c",
+=======
+              "uuid": "4a29d3af-6525-40ef-b0e4-b9385f3de2e3",
+              "parentUUID": "79a43c1f-018b-4b83-9716-1b596afef340",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -2201,6 +3384,7 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "IBPP : Employee - Billing Report Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 1539,
               "state": "passed",
               "speed": "fast",
@@ -2212,6 +3396,23 @@
               "err": {},
               "uuid": "9125639c-41fe-4734-be47-7106c08a03f8",
               "parentUUID": "3f9b8ce9-0713-48c9-b3d3-6b479060524c",
+=======
+              "duration": 21929,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "BILLING_REPORT.verifyTextsIfContains();\nFOOTER.verifyTextsIfContains('IBPP');\nHEADER.verifyTextsIfContains();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.\n    at ./cypress/page-objects/internal-bpp/partner-admin/footer.ts.footers.verifyTextsIfContains (webpack:///./cypress/page-objects/internal-bpp/partner-admin/footer.ts:35:24)\n    at Context.eval (webpack:///./cypress/e2e/internal-bpp/employee/partner-profile/billing_report.ts:46:9)",
+                "diff": null
+              },
+              "uuid": "1c8c6699-f0a4-4cce-b1a2-bfd6796c6f89",
+              "parentUUID": "79a43c1f-018b-4b83-9716-1b596afef340",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -2219,7 +3420,11 @@
               "title": "Edge - Validate download Billing statement",
               "fullTitle": "IBPP : Employee - Billing Report Edge - Validate download Billing statement",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 16131,
+=======
+              "duration": 16322,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2228,8 +3433,13 @@
               "context": null,
               "code": "BILLING_REPORT.downloadBillingStatement();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "4186944d-93c5-453f-91aa-a30016d08229",
               "parentUUID": "3f9b8ce9-0713-48c9-b3d3-6b479060524c",
+=======
+              "uuid": "aa0b770d-a7c9-48e6-8227-bafef599a1fa",
+              "parentUUID": "79a43c1f-018b-4b83-9716-1b596afef340",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -2237,7 +3447,11 @@
               "title": "Edge - Validate download XLS File",
               "fullTitle": "IBPP : Employee - Billing Report Edge - Validate download XLS File",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 15580,
+=======
+              "duration": 15606,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2246,23 +3460,40 @@
               "context": null,
               "code": "BILLING_REPORT.downloadXLSFile();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "06c05083-4655-4468-b642-4b6486a87f6a",
               "parentUUID": "3f9b8ce9-0713-48c9-b3d3-6b479060524c",
+=======
+              "uuid": "6b492b8e-8772-4960-a1b5-ccd23017e1cc",
+              "parentUUID": "79a43c1f-018b-4b83-9716-1b596afef340",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "f1543b2d-7ee9-4070-b251-53661145261a",
             "9125639c-41fe-4734-be47-7106c08a03f8",
             "4186944d-93c5-453f-91aa-a30016d08229",
             "06c05083-4655-4468-b642-4b6486a87f6a"
+=======
+            "4a29d3af-6525-40ef-b0e4-b9385f3de2e3",
+            "aa0b770d-a7c9-48e6-8227-bafef599a1fa",
+            "6b492b8e-8772-4960-a1b5-ccd23017e1cc"
           ],
-          "failures": [],
+          "failures": [
+            "1c8c6699-f0a4-4cce-b1a2-bfd6796c6f89"
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
+          ],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 61653,
+=======
+          "duration": 83917,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -2278,7 +3509,11 @@
       "_timeout": 2000
     },
     {
+<<<<<<< HEAD
       "uuid": "d267ae64-000e-4e41-ad30-ab53632ae94f",
+=======
+      "uuid": "869d9c91-12b8-4dce-ba37-24186c53b31e",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\contact_us.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\contact_us.ts",
@@ -2287,7 +3522,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "02fc0245-ede0-4033-bc17-3e45e2fc6a84",
+=======
+          "uuid": "74aa7e41-e4b8-4412-ac6d-526ef55db70c",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "title": "IBPP : Contact Us - Employee",
           "fullFile": "",
           "file": "",
@@ -2298,7 +3537,11 @@
               "title": "Default items should visible",
               "fullTitle": "IBPP : Contact Us - Employee Default items should visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 29203,
+=======
+              "duration": 31161,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -2307,8 +3550,13 @@
               "context": null,
               "code": "CONTACT_US.verifyItemsIfExist();\nFOOTER.verifyItemsIfExist('IBPP');\nHEADER.verifyItemsIfExist('E');",
               "err": {},
+<<<<<<< HEAD
               "uuid": "3a21945a-9c0a-44c9-87fc-045faa969235",
               "parentUUID": "02fc0245-ede0-4033-bc17-3e45e2fc6a84",
+=======
+              "uuid": "130cb12e-2916-466c-882e-67f5a0578fd3",
+              "parentUUID": "74aa7e41-e4b8-4412-ac6d-526ef55db70c",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -2316,6 +3564,7 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "IBPP : Contact Us - Employee Check texts/labels if visible",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 2469,
               "state": "passed",
               "speed": "fast",
@@ -2327,6 +3576,23 @@
               "err": {},
               "uuid": "04caf8e2-af14-46da-9fea-93f9f3c8db5b",
               "parentUUID": "02fc0245-ede0-4033-bc17-3e45e2fc6a84",
+=======
+              "duration": 22914,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "CONTACT_US.verifyTextsIfContains();\nFOOTER.verifyTextsIfContains('IBPP');\nHEADER.verifyTextsIfContains();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `//*[@id=\"walkme-player\"]/div/div/div[1]`, but never found it.\n    at ./cypress/page-objects/internal-bpp/partner-admin/footer.ts.footers.verifyTextsIfContains (webpack:///./cypress/page-objects/internal-bpp/partner-admin/footer.ts:35:24)\n    at Context.eval (webpack:///./cypress/e2e/internal-bpp/employee/contact_us.ts:49:15)",
+                "diff": null
+              },
+              "uuid": "0af53288-da7f-402f-b574-7419ca7745b9",
+              "parentUUID": "74aa7e41-e4b8-4412-ac6d-526ef55db70c",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -2334,17 +3600,26 @@
               "title": "Validate Cancel submission",
               "fullTitle": "IBPP : Contact Us - Employee Validate Cancel submission",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 4215,
+=======
+              "duration": 5594,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "CONTACT_US.cancelSubmission();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "db44fef3-45db-4ad4-ba83-ff410d19630b",
               "parentUUID": "02fc0245-ede0-4033-bc17-3e45e2fc6a84",
+=======
+              "uuid": "7d740a7f-a29a-4c15-aca1-49de5ff19a93",
+              "parentUUID": "74aa7e41-e4b8-4412-ac6d-526ef55db70c",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             },
@@ -2352,32 +3627,56 @@
               "title": "Validate contact-us submission",
               "fullTitle": "IBPP : Contact Us - Employee Validate contact-us submission",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 9154,
               "state": "passed",
               "speed": "medium",
+=======
+              "duration": 10955,
+              "state": "passed",
+              "speed": "slow",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nCONTACT_US.viewContactUsTab();\nCONTACT_US.submitContactUs();",
               "err": {},
+<<<<<<< HEAD
               "uuid": "fc7482f9-e6ee-4f6d-9d44-a3c007310901",
               "parentUUID": "02fc0245-ede0-4033-bc17-3e45e2fc6a84",
+=======
+              "uuid": "af68ee34-a581-4310-8333-404de57a184b",
+              "parentUUID": "74aa7e41-e4b8-4412-ac6d-526ef55db70c",
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "3a21945a-9c0a-44c9-87fc-045faa969235",
             "04caf8e2-af14-46da-9fea-93f9f3c8db5b",
             "db44fef3-45db-4ad4-ba83-ff410d19630b",
             "fc7482f9-e6ee-4f6d-9d44-a3c007310901"
+=======
+            "130cb12e-2916-466c-882e-67f5a0578fd3",
+            "7d740a7f-a29a-4c15-aca1-49de5ff19a93",
+            "af68ee34-a581-4310-8333-404de57a184b"
+          ],
+          "failures": [
+            "0af53288-da7f-402f-b574-7419ca7745b9"
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 45041,
+=======
+          "duration": 70624,
+>>>>>>> 6ad0f90ed819de691f251c7a971206c119dfc876
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
