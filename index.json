@@ -2,23 +2,23 @@
   "stats": {
     "suites": 13,
     "tests": 103,
-    "passes": 10,
+    "passes": 0,
     "pending": 0,
     "failures": 25,
-    "start": "2025-04-03T00:10:47.388Z",
-    "end": "2025-04-03T00:29:37.290Z",
-    "duration": 418022,
+    "start": "2025-04-04T01:04:27.809Z",
+    "end": "2025-04-04T01:24:16.286Z",
+    "duration": 357726,
     "testsRegistered": 103,
-    "passPercent": 9.70873786407767,
+    "passPercent": 0,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
-    "skipped": 68,
+    "skipped": 78,
     "hasSkipped": true
   },
   "results": [
     {
-      "uuid": "a96fce7f-40a4-488a-9a03-c2fa78b89ab9",
+      "uuid": "620b5801-6cdd-4f1f-8d2e-ce981245f5b8",
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\contact_us.cy.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\contact_us.cy.ts",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1dbe69e4-57e9-45dd-af15-1b47bf1eafd3",
+          "uuid": "6f176c55-f2d0-4edd-ab74-de7554536729",
           "title": "IBPP : Employee : Contact Us",
           "fullFile": "",
           "file": "",
@@ -48,10 +48,10 @@
               "code": "CONTACT_US.verifyItemsIfExist();",
               "err": {
                 "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
-                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:212:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:219:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
                 "diff": null
               },
-              "uuid": "f806f305-69ec-4215-9ef8-b840c0a74dfb",
+              "uuid": "049a20c7-bfbf-48ac-aa75-a293aab36051",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -69,7 +69,7 @@
               "context": null,
               "code": "CONTACT_US.verifyTextsIfContains();",
               "err": {},
-              "uuid": "df5d3eb5-ea9b-47d6-86b0-aa3282a475ad",
+              "uuid": "48317dbb-ca24-48a6-97e9-e6e37bd45d41",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -87,7 +87,7 @@
               "context": null,
               "code": "CONTACT_US.cancelSubmission();",
               "err": {},
-              "uuid": "b132999f-4146-47b6-815b-9a1acbe94f28",
+              "uuid": "0cb03440-6149-4f2e-999f-69b7c5920fb2",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -105,7 +105,7 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nCONTACT_US.viewContactUsTab();\nCONTACT_US.submitContactUs();",
               "err": {},
-              "uuid": "bc9a346a-552b-423e-9d6e-d5ff1a62b191",
+              "uuid": "fec25e5e-95ef-4cd0-87a8-b8bd92207e24",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -114,13 +114,13 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "f806f305-69ec-4215-9ef8-b840c0a74dfb"
+            "049a20c7-bfbf-48ac-aa75-a293aab36051"
           ],
           "pending": [],
           "skipped": [
-            "df5d3eb5-ea9b-47d6-86b0-aa3282a475ad",
-            "b132999f-4146-47b6-815b-9a1acbe94f28",
-            "bc9a346a-552b-423e-9d6e-d5ff1a62b191"
+            "48317dbb-ca24-48a6-97e9-e6e37bd45d41",
+            "0cb03440-6149-4f2e-999f-69b7c5920fb2",
+            "fec25e5e-95ef-4cd0-87a8-b8bd92207e24"
           ],
           "duration": 0,
           "root": false,
@@ -138,7 +138,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "706c9e8e-26ea-4fc3-b5c9-402be4ffcdf9",
+      "uuid": "b9f31021-7c22-4453-8520-258b43a928fc",
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\profile.cy.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\profile.cy.ts",
@@ -147,7 +147,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "62700a28-b192-4106-91ab-000b87204752",
+          "uuid": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
           "title": "IBPP : Employee : General",
           "fullFile": "",
           "file": "",
@@ -158,7 +158,7 @@
               "title": "Application Menu : Default items should visible",
               "fullTitle": "IBPP : Employee : General Application Menu : Default items should visible",
               "timedOut": null,
-              "duration": 14337,
+              "duration": 14503,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -168,11 +168,11 @@
               "code": "SIDE_NAV_BAR.verifyItemsIfExist('E');",
               "err": {
                 "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `identity_provider`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `IBPP : Employee : General`",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `identity_provider`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `IBPP : Employee : General`\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137201:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137227:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145583:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145524:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at Object.eval [as setup] (webpack://pii-protect/./cypress/support/commands.ts:111:11)\n    at Context.<anonymous> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:134964:38)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119371:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119382:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119633:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139910:19)",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `identity_provider`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `IBPP : Employee : General`\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137201:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137227:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145583:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145524:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at Object.eval [as setup] (webpack://pii-protect/./cypress/support/commands.ts:112:11)\n    at Context.<anonymous> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:134964:38)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119371:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119382:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119633:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139910:19)",
                 "diff": null
               },
-              "uuid": "fd12fe1b-b1cc-4b47-a5e0-0037c3036e4a",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "bee7b9a5-6f13-4740-8088-410f5cd83aac",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": false
             },
@@ -189,8 +189,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.verifyTextsIfContains('E');",
               "err": {},
-              "uuid": "ecf90bf9-7b9d-462c-91c6-2af71032c02f",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "298ceda6-6535-457c-b6dd-487a5cadd4fb",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -207,8 +207,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.favoriteApp('assertAll');",
               "err": {},
-              "uuid": "94aee359-04f3-4362-9784-197b65cb4ffe",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "8907b855-f3bd-4cfc-a5cd-1cac4cdd6036",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -225,8 +225,8 @@
               "context": null,
               "code": "SIDE_NAV_BAR.editProfile();\nMY_PROFILE.verifyItemsIfExist('IBPP', 'E');",
               "err": {},
-              "uuid": "4b5af9c5-f68a-43a6-ad95-19a1e292163d",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "e904e8c0-17a5-4b85-a39c-df8ba600728b",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -243,8 +243,8 @@
               "context": null,
               "code": "MY_PROFILE.verifyTextsIfContains('IBPP', 'E');",
               "err": {},
-              "uuid": "82c3596c-155f-464b-a22d-7da06631a3d2",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "c9132e41-a1a7-488e-96ec-a3e559efdb96",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -261,8 +261,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('update_basic_info', '', 'E');",
               "err": {},
-              "uuid": "50b5266f-0706-45c4-b2dd-70e65889ef44",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "9d194ded-6ed3-42a7-890c-2049723c0425",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -279,8 +279,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('clear_all_fields', '', '');",
               "err": {},
-              "uuid": "f3ddaf14-52ea-48e1-b1c2-59385ed16ecd",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "aa8e2424-96db-42af-a9a6-cdacf968a01a",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -297,8 +297,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('un_matched_password', '', '');",
               "err": {},
-              "uuid": "4e267f7f-4e94-4831-9034-a9961ed802d3",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "b08707ef-8b6e-47a6-a83b-a5ab6794d9cc",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -315,8 +315,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_screen_name', '', '');",
               "err": {},
-              "uuid": "ad79c4dd-6c8a-4f79-aa77-9c8331ed5289",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "119da498-0ae4-4370-ad9c-5384b6be748f",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -333,8 +333,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_phone_number', '', '');",
               "err": {},
-              "uuid": "30da9b4e-768c-4cac-a09a-934f039ac96c",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "198b1c41-7989-460a-b896-ad094af03f44",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -351,8 +351,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_number', '', '');",
               "err": {},
-              "uuid": "0fb6926d-edfa-4da2-88e4-0435af4d4591",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "070f0e74-8712-4533-9e8b-da443df1fd70",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -369,8 +369,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_mobile_country_code', '', '');",
               "err": {},
-              "uuid": "a7dff8b9-bab7-4fe0-bd75-e4564446db6d",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "305a2169-9a20-4d3a-8fec-cce0a88141c9",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -387,8 +387,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('validate_screen_name_with_spaces', '', '');",
               "err": {},
-              "uuid": "e664efda-9fc9-4b97-8fb4-5752ae59069b",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "a1b984ea-3247-434f-9405-e800b4ff66bd",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -405,8 +405,8 @@
               "context": null,
               "code": "MY_PROFILE.profile('disable_update_button', '', '');",
               "err": {},
-              "uuid": "560e9718-91bf-4c5d-a127-d08ec2dcef80",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "08d487d5-c04d-44ee-ae45-901c167cf377",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -423,8 +423,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
-              "uuid": "3fd2462a-a855-4d26-88ad-9e368af22b88",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "06af6e23-9982-4302-90f3-58ff3ba72111",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -441,8 +441,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
-              "uuid": "80761ede-bed0-4d8a-b00f-2e056e07e09c",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "ecc7a9c4-424c-44ec-8b0a-8bbca2c5c616",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -459,8 +459,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
-              "uuid": "427f6ca6-5636-4083-8a5a-e6327fe5360c",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "a8981ad8-1f56-4388-8c3b-1edc66e2bb92",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -477,8 +477,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('good');",
               "err": {},
-              "uuid": "b23ff03b-b8f7-4a25-ac68-62e1d0f40077",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "33aa5f70-14de-433b-bc9c-baf3d91a5f68",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             },
@@ -495,8 +495,8 @@
               "context": null,
               "code": "COMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
-              "uuid": "d7cd9801-8aa9-4c5b-95f2-cea275f058cb",
-              "parentUUID": "62700a28-b192-4106-91ab-000b87204752",
+              "uuid": "362e8655-5b99-4744-83a2-5058f1e45875",
+              "parentUUID": "36b4fd0d-5e41-48b3-9fac-1c3e9933a5af",
               "isHook": false,
               "skipped": true
             }
@@ -504,30 +504,30 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "fd12fe1b-b1cc-4b47-a5e0-0037c3036e4a"
+            "bee7b9a5-6f13-4740-8088-410f5cd83aac"
           ],
           "pending": [],
           "skipped": [
-            "ecf90bf9-7b9d-462c-91c6-2af71032c02f",
-            "94aee359-04f3-4362-9784-197b65cb4ffe",
-            "4b5af9c5-f68a-43a6-ad95-19a1e292163d",
-            "82c3596c-155f-464b-a22d-7da06631a3d2",
-            "50b5266f-0706-45c4-b2dd-70e65889ef44",
-            "f3ddaf14-52ea-48e1-b1c2-59385ed16ecd",
-            "4e267f7f-4e94-4831-9034-a9961ed802d3",
-            "ad79c4dd-6c8a-4f79-aa77-9c8331ed5289",
-            "30da9b4e-768c-4cac-a09a-934f039ac96c",
-            "0fb6926d-edfa-4da2-88e4-0435af4d4591",
-            "a7dff8b9-bab7-4fe0-bd75-e4564446db6d",
-            "e664efda-9fc9-4b97-8fb4-5752ae59069b",
-            "560e9718-91bf-4c5d-a127-d08ec2dcef80",
-            "3fd2462a-a855-4d26-88ad-9e368af22b88",
-            "80761ede-bed0-4d8a-b00f-2e056e07e09c",
-            "427f6ca6-5636-4083-8a5a-e6327fe5360c",
-            "b23ff03b-b8f7-4a25-ac68-62e1d0f40077",
-            "d7cd9801-8aa9-4c5b-95f2-cea275f058cb"
+            "298ceda6-6535-457c-b6dd-487a5cadd4fb",
+            "8907b855-f3bd-4cfc-a5cd-1cac4cdd6036",
+            "e904e8c0-17a5-4b85-a39c-df8ba600728b",
+            "c9132e41-a1a7-488e-96ec-a3e559efdb96",
+            "9d194ded-6ed3-42a7-890c-2049723c0425",
+            "aa8e2424-96db-42af-a9a6-cdacf968a01a",
+            "b08707ef-8b6e-47a6-a83b-a5ab6794d9cc",
+            "119da498-0ae4-4370-ad9c-5384b6be748f",
+            "198b1c41-7989-460a-b896-ad094af03f44",
+            "070f0e74-8712-4533-9e8b-da443df1fd70",
+            "305a2169-9a20-4d3a-8fec-cce0a88141c9",
+            "a1b984ea-3247-434f-9405-e800b4ff66bd",
+            "08d487d5-c04d-44ee-ae45-901c167cf377",
+            "06af6e23-9982-4302-90f3-58ff3ba72111",
+            "ecc7a9c4-424c-44ec-8b0a-8bbca2c5c616",
+            "a8981ad8-1f56-4388-8c3b-1edc66e2bb92",
+            "33aa5f70-14de-433b-bc9c-baf3d91a5f68",
+            "362e8655-5b99-4744-83a2-5058f1e45875"
           ],
-          "duration": 14337,
+          "duration": 14503,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -543,7 +543,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "91fca1f2-86d0-4fdb-8a18-3d7c9505f2a3",
+      "uuid": "2cfc78cb-684a-4f72-91bf-7667c5f55411",
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\reg_codes.cy.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\reg_codes.cy.ts",
@@ -552,7 +552,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "22fe0184-9887-4cdc-9890-0d51d75fbc98",
+          "uuid": "c1f30a2f-d767-45f8-94ea-a3f66d959778",
           "title": "IBPP : Add New Employees - Registration codes",
           "fullFile": "",
           "file": "",
@@ -563,7 +563,7 @@
               "title": "Default items should visible",
               "fullTitle": "IBPP : Add New Employees - Registration codes Default items should visible",
               "timedOut": null,
-              "duration": 33321,
+              "duration": 34528,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -576,8 +576,8 @@
                 "estack": "AssertionError: Timed out retrying after 30000ms: expected '<span.MuiTypography-root-81.MuiTypography-caption-84>' to contain text 'PII Protect Copyright © 2025', but the text was 'Breach Secure Now! Copyright © 2025'\n    at __webpack_modules__../cypress/page-objects/pii-portal/new_user.ts.NewUser.register (webpack://pii-protect/./cypress/page-objects/pii-portal/new_user.ts:69:44)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/internal-bpp/employee/reg_codes.cy.ts:35:17)",
                 "diff": "- 'Breach Secure Now! Copyright © 2025'\n+ 'PII Protect Copyright © 2025'\n"
               },
-              "uuid": "69a28028-3023-45c2-8648-f9cd61599ca6",
-              "parentUUID": "22fe0184-9887-4cdc-9890-0d51d75fbc98",
+              "uuid": "d4efa667-dad6-4b45-9dd8-9032488ba063",
+              "parentUUID": "c1f30a2f-d767-45f8-94ea-a3f66d959778",
               "isHook": false,
               "skipped": false
             },
@@ -585,225 +585,225 @@
               "title": "Validate successful new user account creation",
               "fullTitle": "IBPP : Add New Employees - Registration codes Validate successful new user account creation",
               "timedOut": null,
-              "duration": 13423,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEW_USER.register('add_user', 'success_creation');",
-              "err": {},
-              "uuid": "13e07f1b-3e4d-4c8c-842b-f08b5157cebb",
-              "parentUUID": "22fe0184-9887-4cdc-9890-0d51d75fbc98",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Validate existing user",
-              "fullTitle": "IBPP : Add New Employees - Registration codes Validate existing user",
-              "timedOut": null,
-              "duration": 5924,
-              "state": "passed",
-              "speed": "medium",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEW_USER.register('add_user', 'already_exist');",
-              "err": {},
-              "uuid": "1f27460c-f9c8-45d6-b953-dfba3b8fc822",
-              "parentUUID": "22fe0184-9887-4cdc-9890-0d51d75fbc98",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Validate existing user",
-              "fullTitle": "IBPP : Add New Employees - Registration codes Validate existing user",
-              "timedOut": null,
-              "duration": 30459,
+              "duration": 259,
               "state": "failed",
               "speed": null,
               "pass": false,
               "fail": true,
               "pending": false,
               "context": null,
-              "code": "NEW_USER.register('cancel_creating_user', null);",
+              "code": "NEW_USER.register('add_user', 'success_creation');",
               "err": {
-                "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `a:contains(\"Forgot your password?\")`, but never found it.",
-                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `a:contains(\"Forgot your password?\")`, but never found it.\n    at Context.eval (webpack://pii-protect/./cypress/page-objects/pii-portal/login.ts:44:62)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119371:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119382:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119633:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139910:19)",
+                "message": "CypressError: The command was expected to run against origin `https://portal.breachsecurenow.com` but the application is at origin `https://accounts.google.com`.\n\nThis commonly happens when you have either not navigated to the expected origin or have navigated away unexpectedly.\n\nUsing `cy.origin()` to wrap the commands run on `https://accounts.google.com` will likely fix this issue.\n\n`cy.origin('https://accounts.google.com', () => {`\n`  <commands targeting https://accounts.google.com go here>`\n`})`\n\nhttps://on.cypress.io/cy-visit-succeeded-but-commands-fail\n\nBecause this error occurred during a `after each` hook we are skipping all of the remaining tests.",
+                "estack": "CypressError: The command was expected to run against origin `https://portal.breachsecurenow.com` but the application is at origin `https://accounts.google.com`.\n\nThis commonly happens when you have either not navigated to the expected origin or have navigated away unexpectedly.\n\nUsing `cy.origin()` to wrap the commands run on `https://accounts.google.com` will likely fix this issue.\n\n`cy.origin('https://accounts.google.com', () => {`\n`  <commands targeting https://accounts.google.com go here>`\n`})`\n\nhttps://on.cypress.io/cy-visit-succeeded-but-commands-fail\n\nBecause this error occurred during a `after each` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at Object.commandCanCommunicateWithAUT (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:146863:90)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:132968:24)\n    at PassThroughHandlerContext.finallyHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4042:23)\n    at PassThroughHandlerContext.tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1667:18)\n    at _drainQueueStep (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:2377:12)\n    at _drainQueue (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:2370:9)\n    at Async._drainQueues (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:2386:5)\n    at Async.drainQueues (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:2256:14)",
                 "diff": null
               },
-              "uuid": "0e050931-5896-4ba7-8f44-c37e9d547c48",
-              "parentUUID": "22fe0184-9887-4cdc-9890-0d51d75fbc98",
+              "uuid": "471cafeb-24c2-4db3-b816-7081aa676383",
+              "parentUUID": "c1f30a2f-d767-45f8-94ea-a3f66d959778",
               "isHook": false,
               "skipped": false
+            },
+            {
+              "title": "Validate existing user",
+              "fullTitle": "IBPP : Add New Employees - Registration codes Validate existing user",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEW_USER.register('add_user', 'already_exist');",
+              "err": {},
+              "uuid": "578b8d61-7d9a-4cd4-ad7f-a9d7f8f8d448",
+              "parentUUID": "c1f30a2f-d767-45f8-94ea-a3f66d959778",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Validate existing user",
+              "fullTitle": "IBPP : Add New Employees - Registration codes Validate existing user",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEW_USER.register('cancel_creating_user', null);",
+              "err": {},
+              "uuid": "d07e15c5-6e57-4ba2-94af-b740c9d3d86f",
+              "parentUUID": "c1f30a2f-d767-45f8-94ea-a3f66d959778",
+              "isHook": false,
+              "skipped": true
             },
             {
               "title": "Check field validations",
               "fullTitle": "IBPP : Add New Employees - Registration codes Check field validations",
               "timedOut": null,
-              "duration": 1857,
-              "state": "passed",
-              "speed": "fast",
-              "pass": true,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "NEW_USER.register('disable_submit_button', null);",
               "err": {},
-              "uuid": "a3ad673d-4e64-4f5c-a75e-9456f4ebf7bf",
-              "parentUUID": "22fe0184-9887-4cdc-9890-0d51d75fbc98",
+              "uuid": "0d63979a-c928-4f4b-ac54-ac4f17efbeb8",
+              "parentUUID": "c1f30a2f-d767-45f8-94ea-a3f66d959778",
               "isHook": false,
-              "skipped": false
+              "skipped": true
             },
             {
               "title": "Validate matching email and confirm email fields",
               "fullTitle": "IBPP : Add New Employees - Registration codes Validate matching email and confirm email fields",
               "timedOut": null,
-              "duration": 5514,
-              "state": "passed",
-              "speed": "medium",
-              "pass": true,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "NEW_USER.register('validation_fields', 'email_not_matched');",
               "err": {},
-              "uuid": "c82b7bfe-0219-4e17-ad84-c5969cf83a7f",
-              "parentUUID": "22fe0184-9887-4cdc-9890-0d51d75fbc98",
+              "uuid": "b5200ca6-5f5a-45fe-ab9c-fc6d259eaa7d",
+              "parentUUID": "c1f30a2f-d767-45f8-94ea-a3f66d959778",
               "isHook": false,
-              "skipped": false
+              "skipped": true
             },
             {
               "title": "Validate matching password and verify password fields",
               "fullTitle": "IBPP : Add New Employees - Registration codes Validate matching password and verify password fields",
               "timedOut": null,
-              "duration": 4699,
-              "state": "passed",
-              "speed": "fast",
-              "pass": true,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "NEW_USER.register('validation_fields', 'passwords_not_matched');",
               "err": {},
-              "uuid": "81a590c8-5fca-49ab-bb51-f5316a2a9012",
-              "parentUUID": "22fe0184-9887-4cdc-9890-0d51d75fbc98",
+              "uuid": "ed7a1751-ded2-4994-9fdd-a9eee549af54",
+              "parentUUID": "c1f30a2f-d767-45f8-94ea-a3f66d959778",
               "isHook": false,
-              "skipped": false
+              "skipped": true
             },
             {
               "title": "Create account : Validate Password Strength - risk",
               "fullTitle": "IBPP : Add New Employees - Registration codes Create account : Validate Password Strength - risk",
               "timedOut": null,
-              "duration": 493,
-              "state": "passed",
-              "speed": "fast",
-              "pass": true,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('risky');",
               "err": {},
-              "uuid": "79522352-e31f-45b3-916e-8271b74a4228",
-              "parentUUID": "22fe0184-9887-4cdc-9890-0d51d75fbc98",
+              "uuid": "172b7add-18a1-43ef-a543-cda313ead57f",
+              "parentUUID": "c1f30a2f-d767-45f8-94ea-a3f66d959778",
               "isHook": false,
-              "skipped": false
+              "skipped": true
             },
             {
               "title": "Create account : Validate Password Strength - weak",
               "fullTitle": "IBPP : Add New Employees - Registration codes Create account : Validate Password Strength - weak",
               "timedOut": null,
-              "duration": 522,
-              "state": "passed",
-              "speed": "fast",
-              "pass": true,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('weak');",
               "err": {},
-              "uuid": "44c6121a-8675-41c5-87c0-2eeddf31584b",
-              "parentUUID": "22fe0184-9887-4cdc-9890-0d51d75fbc98",
+              "uuid": "3cc3aa49-0823-4c49-9a10-e880626a62e4",
+              "parentUUID": "c1f30a2f-d767-45f8-94ea-a3f66d959778",
               "isHook": false,
-              "skipped": false
+              "skipped": true
             },
             {
               "title": "Create account : Validate Password Strength - fair",
               "fullTitle": "IBPP : Add New Employees - Registration codes Create account : Validate Password Strength - fair",
               "timedOut": null,
-              "duration": 618,
-              "state": "passed",
-              "speed": "fast",
-              "pass": true,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('fair');",
               "err": {},
-              "uuid": "ad5aa4b4-59e1-401a-a203-832aa33f30c5",
-              "parentUUID": "22fe0184-9887-4cdc-9890-0d51d75fbc98",
+              "uuid": "be4af9b5-4405-451b-ad9c-a2298f2a1369",
+              "parentUUID": "c1f30a2f-d767-45f8-94ea-a3f66d959778",
               "isHook": false,
-              "skipped": false
+              "skipped": true
             },
             {
               "title": "Create account : Validate Password Strength - good",
               "fullTitle": "IBPP : Add New Employees - Registration codes Create account : Validate Password Strength - good",
               "timedOut": null,
-              "duration": 644,
-              "state": "passed",
-              "speed": "fast",
-              "pass": true,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('good');",
               "err": {},
-              "uuid": "0489b371-25d9-41d3-901f-e472008a602a",
-              "parentUUID": "22fe0184-9887-4cdc-9890-0d51d75fbc98",
+              "uuid": "9c4ffc05-afbd-4787-aff7-4102cbd62a52",
+              "parentUUID": "c1f30a2f-d767-45f8-94ea-a3f66d959778",
               "isHook": false,
-              "skipped": false
+              "skipped": true
             },
             {
               "title": "Create account : Validate Password Strength - strong",
               "fullTitle": "IBPP : Add New Employees - Registration codes Create account : Validate Password Strength - strong",
               "timedOut": null,
-              "duration": 788,
-              "state": "passed",
-              "speed": "fast",
-              "pass": true,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "NEW_USER.newUser.click();\nCOMM_ELEMENTS.passwordStrength('strong');",
               "err": {},
-              "uuid": "e7637257-9e66-42b1-967d-2b4eee6f160f",
-              "parentUUID": "22fe0184-9887-4cdc-9890-0d51d75fbc98",
+              "uuid": "37e55161-1754-4e12-bc26-1631462b4803",
+              "parentUUID": "c1f30a2f-d767-45f8-94ea-a3f66d959778",
               "isHook": false,
-              "skipped": false
+              "skipped": true
             }
           ],
           "suites": [],
-          "passes": [
-            "13e07f1b-3e4d-4c8c-842b-f08b5157cebb",
-            "1f27460c-f9c8-45d6-b953-dfba3b8fc822",
-            "a3ad673d-4e64-4f5c-a75e-9456f4ebf7bf",
-            "c82b7bfe-0219-4e17-ad84-c5969cf83a7f",
-            "81a590c8-5fca-49ab-bb51-f5316a2a9012",
-            "79522352-e31f-45b3-916e-8271b74a4228",
-            "44c6121a-8675-41c5-87c0-2eeddf31584b",
-            "ad5aa4b4-59e1-401a-a203-832aa33f30c5",
-            "0489b371-25d9-41d3-901f-e472008a602a",
-            "e7637257-9e66-42b1-967d-2b4eee6f160f"
-          ],
+          "passes": [],
           "failures": [
-            "69a28028-3023-45c2-8648-f9cd61599ca6",
-            "0e050931-5896-4ba7-8f44-c37e9d547c48"
+            "d4efa667-dad6-4b45-9dd8-9032488ba063",
+            "471cafeb-24c2-4db3-b816-7081aa676383"
           ],
           "pending": [],
-          "skipped": [],
-          "duration": 98262,
+          "skipped": [
+            "578b8d61-7d9a-4cd4-ad7f-a9d7f8f8d448",
+            "d07e15c5-6e57-4ba2-94af-b740c9d3d86f",
+            "0d63979a-c928-4f4b-ac54-ac4f17efbeb8",
+            "b5200ca6-5f5a-45fe-ab9c-fc6d259eaa7d",
+            "ed7a1751-ded2-4994-9fdd-a9eee549af54",
+            "172b7add-18a1-43ef-a543-cda313ead57f",
+            "3cc3aa49-0823-4c49-9a10-e880626a62e4",
+            "be4af9b5-4405-451b-ad9c-a2298f2a1369",
+            "9c4ffc05-afbd-4787-aff7-4102cbd62a52",
+            "37e55161-1754-4e12-bc26-1631462b4803"
+          ],
+          "duration": 34787,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -819,7 +819,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "e75aa1f9-ed14-4561-80b0-e33b42dd83de",
+      "uuid": "74727c49-b668-4a3e-9a6d-a7f03751f207",
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_dark_web.cy.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_dark_web.cy.ts",
@@ -828,7 +828,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "bec46c08-3f76-4d69-9f2b-d9e00cdfbd7c",
+          "uuid": "2c433864-ec8e-4728-882d-eadaba73f56c",
           "title": "IBPP : Employee : Dashboard : Dark Web - Run DWBA",
           "fullFile": "",
           "file": "",
@@ -849,10 +849,10 @@
               "code": "DARK_WEB.validateScenario('default_items');",
               "err": {
                 "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
-                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:212:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:219:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
                 "diff": null
               },
-              "uuid": "38fcc2ac-6bcd-4d42-9255-dbfeedb7ad4c",
+              "uuid": "aac025a9-14cd-4f20-8c08-37460b26afd5",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -870,7 +870,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('generate_results');",
               "err": {},
-              "uuid": "b5096324-da38-4b1e-8122-a5a08e647e0f",
+              "uuid": "0f134051-7bd4-4715-a19c-f855660d004f",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -888,7 +888,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('good_news');",
               "err": {},
-              "uuid": "3b8854f1-9035-4486-8b4f-12fb238a1a86",
+              "uuid": "b2d481a4-9616-422b-a36c-817a0628ec5a",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -906,7 +906,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('empty_email_address');",
               "err": {},
-              "uuid": "39e1c170-821b-47ef-9a15-e512a7303439",
+              "uuid": "d820da2d-e795-4646-8b13-b687b3a10d2f",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -924,7 +924,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('email_format');",
               "err": {},
-              "uuid": "586ef2b7-efd7-49fd-a6b9-702d9e77383c",
+              "uuid": "33baf586-3c7a-472c-81d5-6af6baaf4e24",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -942,7 +942,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('generate_results');\nDARK_WEB.validateScenario('resetting_email');",
               "err": {},
-              "uuid": "21315c05-1307-4488-b34d-39e0ac703c04",
+              "uuid": "3865e6f4-d579-4454-890d-99bcfbc7c663",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -960,7 +960,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('reset_table_results');",
               "err": {},
-              "uuid": "33942a34-b1fe-4fcb-b9c9-f1ee66abba07",
+              "uuid": "1f5697c5-5d34-4f4a-b50e-560e6cbe908b",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -978,7 +978,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('recheck_email_address');",
               "err": {},
-              "uuid": "46b285df-2e40-4669-bda2-6d0d4c82ead8",
+              "uuid": "1804f20f-1250-4173-9442-5853999adffe",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -996,7 +996,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('column_sorting');",
               "err": {},
-              "uuid": "2894b3dd-030e-447b-9f91-21ee76350c13",
+              "uuid": "fa5314dc-e50b-4716-bae0-b39ddd7abc65",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1014,7 +1014,7 @@
               "context": null,
               "code": "DARK_WEB.validateScenario('compromised_data');",
               "err": {},
-              "uuid": "83d4c0b0-1ad6-478c-90d1-d9f8b9e44157",
+              "uuid": "9ad854ef-6816-41e3-8ec5-8ea86ba1420b",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1023,19 +1023,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "38fcc2ac-6bcd-4d42-9255-dbfeedb7ad4c"
+            "aac025a9-14cd-4f20-8c08-37460b26afd5"
           ],
           "pending": [],
           "skipped": [
-            "b5096324-da38-4b1e-8122-a5a08e647e0f",
-            "3b8854f1-9035-4486-8b4f-12fb238a1a86",
-            "39e1c170-821b-47ef-9a15-e512a7303439",
-            "586ef2b7-efd7-49fd-a6b9-702d9e77383c",
-            "21315c05-1307-4488-b34d-39e0ac703c04",
-            "33942a34-b1fe-4fcb-b9c9-f1ee66abba07",
-            "46b285df-2e40-4669-bda2-6d0d4c82ead8",
-            "2894b3dd-030e-447b-9f91-21ee76350c13",
-            "83d4c0b0-1ad6-478c-90d1-d9f8b9e44157"
+            "0f134051-7bd4-4715-a19c-f855660d004f",
+            "b2d481a4-9616-422b-a36c-817a0628ec5a",
+            "d820da2d-e795-4646-8b13-b687b3a10d2f",
+            "33baf586-3c7a-472c-81d5-6af6baaf4e24",
+            "3865e6f4-d579-4454-890d-99bcfbc7c663",
+            "1f5697c5-5d34-4f4a-b50e-560e6cbe908b",
+            "1804f20f-1250-4173-9442-5853999adffe",
+            "fa5314dc-e50b-4716-bae0-b39ddd7abc65",
+            "9ad854ef-6816-41e3-8ec5-8ea86ba1420b"
           ],
           "duration": 0,
           "root": false,
@@ -1053,7 +1053,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "69e2251f-73bb-4f82-9587-3dd27e7b920e",
+      "uuid": "63ba693f-c596-499e-a215-3be3301ce142",
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_dashboard.cy.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_dashboard.cy.ts",
@@ -1062,7 +1062,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "62c2ba8c-0c27-471a-ad76-7b3ccfd81ac6",
+          "uuid": "884325c0-7b2b-4852-a139-7b94fdc902ed",
           "title": "IBPP : Employee : My Dashboard : Dashboard",
           "fullFile": "",
           "file": "",
@@ -1073,7 +1073,7 @@
               "title": "Company Average Employee Secure Score (ESS) : Check texts/labels if visible",
               "fullTitle": "IBPP : Employee : My Dashboard : Dashboard Company Average Employee Secure Score (ESS) : Check texts/labels if visible",
               "timedOut": null,
-              "duration": 14200,
+              "duration": 15069,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1083,11 +1083,11 @@
               "code": "PARTNER_DASHBOARD.verifyTextsIfContainsESS();",
               "err": {
                 "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `identity_provider`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before each` hook we are skipping all of the remaining tests.",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `identity_provider`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before each` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137201:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137227:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145583:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145524:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at Object.eval [as setup] (webpack://pii-protect/./cypress/support/commands.ts:111:11)\n    at Context.<anonymous> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:134964:38)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119371:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119382:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119633:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139910:19)",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `identity_provider`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n\nBecause this error occurred during a `before each` hook we are skipping all of the remaining tests.\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137201:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137227:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145583:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145524:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at Object.eval [as setup] (webpack://pii-protect/./cypress/support/commands.ts:112:11)\n    at Context.<anonymous> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:134964:38)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119371:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119382:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119633:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139910:19)",
                 "diff": null
               },
-              "uuid": "cb76b2a4-7a8a-48cd-81f0-e917a6519a05",
-              "parentUUID": "62c2ba8c-0c27-471a-ad76-7b3ccfd81ac6",
+              "uuid": "e23b4060-bf69-4345-b530-3d5ddae82ab0",
+              "parentUUID": "884325c0-7b2b-4852-a139-7b94fdc902ed",
               "isHook": false,
               "skipped": false
             },
@@ -1104,8 +1104,8 @@
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyTextsIfContainsESSTrend();",
               "err": {},
-              "uuid": "c3fd024b-42dc-443d-b7c5-d448ef07ce1d",
-              "parentUUID": "62c2ba8c-0c27-471a-ad76-7b3ccfd81ac6",
+              "uuid": "76c19bff-385d-4376-aaea-be1aa0b5d631",
+              "parentUUID": "884325c0-7b2b-4852-a139-7b94fdc902ed",
               "isHook": false,
               "skipped": true
             },
@@ -1122,8 +1122,8 @@
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyTextsIfContainsESSTrend();",
               "err": {},
-              "uuid": "8962ac23-942a-46d6-93d3-3d3ac68c6a53",
-              "parentUUID": "62c2ba8c-0c27-471a-ad76-7b3ccfd81ac6",
+              "uuid": "a91c18e2-ca53-4444-9270-0c14755bca71",
+              "parentUUID": "884325c0-7b2b-4852-a139-7b94fdc902ed",
               "isHook": false,
               "skipped": true
             },
@@ -1140,8 +1140,8 @@
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyTextsIfContainsImproveESS();",
               "err": {},
-              "uuid": "efb501f0-c1fb-4863-8a09-2be6b7401e72",
-              "parentUUID": "62c2ba8c-0c27-471a-ad76-7b3ccfd81ac6",
+              "uuid": "3286a763-3c0f-48f9-8738-c11348c67406",
+              "parentUUID": "884325c0-7b2b-4852-a139-7b94fdc902ed",
               "isHook": false,
               "skipped": true
             },
@@ -1158,8 +1158,8 @@
               "context": null,
               "code": "PARTNER_DASHBOARD.externalDataBreachWidget();",
               "err": {},
-              "uuid": "892f8d7b-a7de-4a42-bbe3-77527fc85588",
-              "parentUUID": "62c2ba8c-0c27-471a-ad76-7b3ccfd81ac6",
+              "uuid": "4b8cb67d-9826-438b-92ad-a2fcaf5a016d",
+              "parentUUID": "884325c0-7b2b-4852-a139-7b94fdc902ed",
               "isHook": false,
               "skipped": true
             },
@@ -1176,8 +1176,8 @@
               "context": null,
               "code": "PARTNER_DASHBOARD.verifyTextsIfContainsChart();",
               "err": {},
-              "uuid": "76709745-223e-49c0-90d8-2dee50e15353",
-              "parentUUID": "62c2ba8c-0c27-471a-ad76-7b3ccfd81ac6",
+              "uuid": "26e64d3e-218b-445d-9626-412c488a3468",
+              "parentUUID": "884325c0-7b2b-4852-a139-7b94fdc902ed",
               "isHook": false,
               "skipped": true
             },
@@ -1195,11 +1195,11 @@
               "code": "PARTNER_DASHBOARD.verifyItemsIfExistLB();",
               "err": {
                 "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
-                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:212:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:219:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
                 "diff": null
               },
-              "uuid": "3f0c042c-8aaa-4859-a759-9ee60af2ed52",
-              "parentUUID": "62c2ba8c-0c27-471a-ad76-7b3ccfd81ac6",
+              "uuid": "80e03ff2-738e-45b7-bd71-947d4f21112e",
+              "parentUUID": "884325c0-7b2b-4852-a139-7b94fdc902ed",
               "isHook": false,
               "skipped": false
             }
@@ -1207,18 +1207,18 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "cb76b2a4-7a8a-48cd-81f0-e917a6519a05",
-            "3f0c042c-8aaa-4859-a759-9ee60af2ed52"
+            "e23b4060-bf69-4345-b530-3d5ddae82ab0",
+            "80e03ff2-738e-45b7-bd71-947d4f21112e"
           ],
           "pending": [],
           "skipped": [
-            "c3fd024b-42dc-443d-b7c5-d448ef07ce1d",
-            "8962ac23-942a-46d6-93d3-3d3ac68c6a53",
-            "efb501f0-c1fb-4863-8a09-2be6b7401e72",
-            "892f8d7b-a7de-4a42-bbe3-77527fc85588",
-            "76709745-223e-49c0-90d8-2dee50e15353"
+            "76c19bff-385d-4376-aaea-be1aa0b5d631",
+            "a91c18e2-ca53-4444-9270-0c14755bca71",
+            "3286a763-3c0f-48f9-8738-c11348c67406",
+            "4b8cb67d-9826-438b-92ad-a2fcaf5a016d",
+            "26e64d3e-218b-445d-9626-412c488a3468"
           ],
-          "duration": 14200,
+          "duration": 15069,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1234,7 +1234,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "10b6ea7f-90af-4351-bb66-145b5f92c1a7",
+      "uuid": "70ee82d1-0036-41c4-a8e9-e8ad7acea611",
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_micro_training.cy.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_micro_training.cy.ts",
@@ -1243,7 +1243,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e6ce7c68-1457-45a8-ae28-4648555cf644",
+          "uuid": "4d02a8b4-b2e0-4854-83f8-f35f44b1da0a",
           "title": "IBPP : Employee : Dashboard : Micro Training",
           "fullFile": "",
           "file": "",
@@ -1264,10 +1264,10 @@
               "code": "MICRO_TRAINING.validateScenario('default_items');",
               "err": {
                 "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
-                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:212:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:219:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
                 "diff": null
               },
-              "uuid": "d86c1f14-8ed1-47f0-b2d7-a11f10cb646c",
+              "uuid": "39db6134-0aed-4ae7-864e-c5c08ee28231",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1285,7 +1285,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('default_texts');",
               "err": {},
-              "uuid": "c457e9e1-d7f4-4404-829d-0c1e0e965085",
+              "uuid": "e9bf331b-87f2-415b-b5f3-c698f0a165da",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1303,7 +1303,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.viewPageItems('200');\nMICRO_TRAINING.validateScenario('all_trainings');",
               "err": {},
-              "uuid": "e7a0f4f3-ec22-4f9c-96c8-14b07f9eb20b",
+              "uuid": "3b9d8cbe-1126-4e6a-911c-e77e15a1a2a3",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1321,7 +1321,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('watch_trainings');",
               "err": {},
-              "uuid": "3f83b2fd-2d85-4c3b-bef5-5dceaf5d5f08",
+              "uuid": "13866340-e439-4959-a0d3-531f046425b4",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1339,7 +1339,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('answered_trainings');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "84f98031-4089-4e66-bcd7-48616743fdbb",
+              "uuid": "7e753d7a-91a9-4fa8-ae5b-89cc7fc8d6d7",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1357,7 +1357,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('submission');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "2b4d3959-48c2-44f4-85bb-940d7211d1a7",
+              "uuid": "54bb0c9e-437f-4edf-9332-8ea130387a41",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1375,7 +1375,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('disable_submission');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "5eaad0a1-85e1-46a2-bc6e-42f212176525",
+              "uuid": "c3f148e5-775e-428a-80b4-fcfde18a7b9c",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1393,7 +1393,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('select_answers');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "7d04f0f3-feaa-4e0d-8ce2-1719c5456103",
+              "uuid": "183e2011-1620-4d60-939c-eca550ac31a8",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1411,7 +1411,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.itemsPagination('25', '');",
               "err": {},
-              "uuid": "9a1fc201-cb29-41c4-8514-8616b9c010c1",
+              "uuid": "0daa9bcb-bd63-4bed-a2b6-5633ee2844dd",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1429,7 +1429,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.itemsPagination('50', '');",
               "err": {},
-              "uuid": "16e84b69-374d-470c-a02e-9ecbfc5d7760",
+              "uuid": "88c6bbf8-1f77-4e62-9f34-a470b6c342df",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1447,7 +1447,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.itemsPagination('100', '');",
               "err": {},
-              "uuid": "a6c79953-e76a-47a7-bec0-75066a80c38c",
+              "uuid": "f1925a70-a2de-4f17-829f-45b2cd538628",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1465,7 +1465,7 @@
               "context": null,
               "code": "COMM_ELEMENTS.itemsPagination('200', '');",
               "err": {},
-              "uuid": "b391719c-3169-4018-a49d-af01fc2a8327",
+              "uuid": "fe083fe1-048d-4b0a-a2ff-44f8b5479578",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1483,7 +1483,7 @@
               "context": null,
               "code": "MICRO_TRAINING.validateScenario('validate-average');",
               "err": {},
-              "uuid": "ee1cf894-da47-4dc9-a437-c63f2e436dcb",
+              "uuid": "3a21257b-8471-4244-ab53-6f97697cb880",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1492,22 +1492,22 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "d86c1f14-8ed1-47f0-b2d7-a11f10cb646c"
+            "39db6134-0aed-4ae7-864e-c5c08ee28231"
           ],
           "pending": [],
           "skipped": [
-            "c457e9e1-d7f4-4404-829d-0c1e0e965085",
-            "e7a0f4f3-ec22-4f9c-96c8-14b07f9eb20b",
-            "3f83b2fd-2d85-4c3b-bef5-5dceaf5d5f08",
-            "84f98031-4089-4e66-bcd7-48616743fdbb",
-            "2b4d3959-48c2-44f4-85bb-940d7211d1a7",
-            "5eaad0a1-85e1-46a2-bc6e-42f212176525",
-            "7d04f0f3-feaa-4e0d-8ce2-1719c5456103",
-            "9a1fc201-cb29-41c4-8514-8616b9c010c1",
-            "16e84b69-374d-470c-a02e-9ecbfc5d7760",
-            "a6c79953-e76a-47a7-bec0-75066a80c38c",
-            "b391719c-3169-4018-a49d-af01fc2a8327",
-            "ee1cf894-da47-4dc9-a437-c63f2e436dcb"
+            "e9bf331b-87f2-415b-b5f3-c698f0a165da",
+            "3b9d8cbe-1126-4e6a-911c-e77e15a1a2a3",
+            "13866340-e439-4959-a0d3-531f046425b4",
+            "7e753d7a-91a9-4fa8-ae5b-89cc7fc8d6d7",
+            "54bb0c9e-437f-4edf-9332-8ea130387a41",
+            "c3f148e5-775e-428a-80b4-fcfde18a7b9c",
+            "183e2011-1620-4d60-939c-eca550ac31a8",
+            "0daa9bcb-bd63-4bed-a2b6-5633ee2844dd",
+            "88c6bbf8-1f77-4e62-9f34-a470b6c342df",
+            "f1925a70-a2de-4f17-829f-45b2cd538628",
+            "fe083fe1-048d-4b0a-a2ff-44f8b5479578",
+            "3a21257b-8471-4244-ab53-6f97697cb880"
           ],
           "duration": 0,
           "root": false,
@@ -1525,7 +1525,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "4828f9c1-8275-47cc-87fd-903d931a774c",
+      "uuid": "1fbfb54a-dafb-41ec-b0ba-00aa535e42c3",
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_newsletters.cy.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_newsletters.cy.ts",
@@ -1534,7 +1534,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "088a0fa3-225b-449a-a9cf-e355d9bf189c",
+          "uuid": "843fded3-0d0f-4fc8-b0d2-015be81f660d",
           "title": "IBPP : Employee : Dashboard : Newsletters",
           "fullFile": "",
           "file": "",
@@ -1545,7 +1545,7 @@
               "title": "Default items should visible",
               "fullTitle": "IBPP : Employee : Dashboard : Newsletters Default items should visible",
               "timedOut": null,
-              "duration": 14126,
+              "duration": 15252,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1555,11 +1555,11 @@
               "code": "cy.loginPortal();\nSIDE_NAV_BAR.sideBarNavigation('My Dashboard');\nNEWSLETTER.viewNewslettersTab();\nNEWSLETTER.validateScenario('default_items');\nCOMM_ELEMENTS.viewPageItems('200');",
               "err": {
                 "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `identity_provider`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait",
-                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `identity_provider`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137201:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137227:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145583:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145524:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at Object.eval [as setup] (webpack://pii-protect/./cypress/support/commands.ts:111:11)\n    at Context.<anonymous> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:134964:38)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119371:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119382:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119633:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139910:19)",
+                "estack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `identity_provider`. No request ever occurred.\n\nThis error occurred while creating the session. Because the session setup failed, we failed the test.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76198:18)\n    at Object.errByPath (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:76252:10)\n    at checkForXhr (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137201:84)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:137227:28)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145583:68)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:145524:14)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at Object.eval [as setup] (webpack://pii-protect/./cypress/support/commands.ts:112:11)\n    at Context.<anonymous> (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:134964:38)\n    at getRet (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119371:20)\n    at tryCatcher (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119382:66)\n    at Context.then (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:119633:21)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139910:19)",
                 "diff": null
               },
-              "uuid": "17259500-bcd9-4ccd-8e57-8a321746031a",
-              "parentUUID": "088a0fa3-225b-449a-a9cf-e355d9bf189c",
+              "uuid": "8ecd3161-cbe5-4442-8651-08f359e5f6c5",
+              "parentUUID": "843fded3-0d0f-4fc8-b0d2-015be81f660d",
               "isHook": false,
               "skipped": false
             },
@@ -1567,7 +1567,7 @@
               "title": "Check texts/labels if visible",
               "fullTitle": "IBPP : Employee : Dashboard : Newsletters Check texts/labels if visible",
               "timedOut": null,
-              "duration": 30140,
+              "duration": 30254,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1580,8 +1580,8 @@
                 "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[tabid=\"newsletters\"]`, but never found it.\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/newsletters.ts.myDashboardNewsletters.validateScenario (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/newsletters.ts:55:36)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/internal-bpp/employee/my-dashboard/employee_newsletters.cy.ts:45:19)",
                 "diff": null
               },
-              "uuid": "fcd576dc-324f-4935-ba28-aed06d8c0c2e",
-              "parentUUID": "088a0fa3-225b-449a-a9cf-e355d9bf189c",
+              "uuid": "30efb143-8c63-4920-8f9c-a12a55ba25ce",
+              "parentUUID": "843fded3-0d0f-4fc8-b0d2-015be81f660d",
               "isHook": false,
               "skipped": false
             },
@@ -1589,7 +1589,7 @@
               "title": "Validate newsletters pdf reports",
               "fullTitle": "IBPP : Employee : Dashboard : Newsletters Validate newsletters pdf reports",
               "timedOut": null,
-              "duration": 30143,
+              "duration": 30213,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1602,8 +1602,8 @@
                 "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[tabid=\"newsletters\"]`, but never found it.\n    at myDashboardNewsletters.get (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/newsletters.ts:14:37)\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/newsletters.ts.myDashboardNewsletters.validateScenario (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/newsletters.ts:60:21)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/internal-bpp/employee/my-dashboard/employee_newsletters.cy.ts:51:19)",
                 "diff": null
               },
-              "uuid": "84346639-cc4a-48d6-ae1b-3e0a6b4e777c",
-              "parentUUID": "088a0fa3-225b-449a-a9cf-e355d9bf189c",
+              "uuid": "fc9a281e-81e6-4f07-be4c-9f169efa80ff",
+              "parentUUID": "843fded3-0d0f-4fc8-b0d2-015be81f660d",
               "isHook": false,
               "skipped": false
             },
@@ -1611,7 +1611,7 @@
               "title": "Pagination: Validate select item per page by 25, correct list of rows and pages must be displayed",
               "fullTitle": "IBPP : Employee : Dashboard : Newsletters Pagination: Validate select item per page by 25, correct list of rows and pages must be displayed",
               "timedOut": null,
-              "duration": 20195,
+              "duration": 20261,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1624,8 +1624,8 @@
                 "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `p:contains(Items per page)`, but never found it.\n    at commonElements.get (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:47:37)\n    at scrollToItemPerPageBtn (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:745:21)\n    at __webpack_modules__../cypress/page-objects/pii-portal/common-elements.ts.commonElements.itemsPagination (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:843:8)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/internal-bpp/employee/my-dashboard/employee_newsletters.cy.ts:57:22)",
                 "diff": null
               },
-              "uuid": "18d3e49c-46ba-470f-997c-c62cfa4c999b",
-              "parentUUID": "088a0fa3-225b-449a-a9cf-e355d9bf189c",
+              "uuid": "35d15b4f-d650-457e-ba1c-c20447a9d89b",
+              "parentUUID": "843fded3-0d0f-4fc8-b0d2-015be81f660d",
               "isHook": false,
               "skipped": false
             },
@@ -1633,7 +1633,7 @@
               "title": "Pagination: Validate select item per page by 50, correct list of rows and pages must be displayed",
               "fullTitle": "IBPP : Employee : Dashboard : Newsletters Pagination: Validate select item per page by 50, correct list of rows and pages must be displayed",
               "timedOut": null,
-              "duration": 20210,
+              "duration": 20263,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1646,8 +1646,8 @@
                 "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `p:contains(Items per page)`, but never found it.\n    at commonElements.get (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:47:37)\n    at scrollToItemPerPageBtn (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:745:21)\n    at __webpack_modules__../cypress/page-objects/pii-portal/common-elements.ts.commonElements.itemsPagination (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:843:8)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/internal-bpp/employee/my-dashboard/employee_newsletters.cy.ts:63:22)",
                 "diff": null
               },
-              "uuid": "7aed414d-bbdc-40de-b11a-0c838ca7e7d6",
-              "parentUUID": "088a0fa3-225b-449a-a9cf-e355d9bf189c",
+              "uuid": "ac01a164-c429-4cdd-9cce-a21e55d0d223",
+              "parentUUID": "843fded3-0d0f-4fc8-b0d2-015be81f660d",
               "isHook": false,
               "skipped": false
             },
@@ -1655,7 +1655,7 @@
               "title": "Pagination: Validate select item per page by 100, correct list of rows and pages must be displayed",
               "fullTitle": "IBPP : Employee : Dashboard : Newsletters Pagination: Validate select item per page by 100, correct list of rows and pages must be displayed",
               "timedOut": null,
-              "duration": 20206,
+              "duration": 20262,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1668,8 +1668,8 @@
                 "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `p:contains(Items per page)`, but never found it.\n    at commonElements.get (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:47:37)\n    at scrollToItemPerPageBtn (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:745:21)\n    at __webpack_modules__../cypress/page-objects/pii-portal/common-elements.ts.commonElements.itemsPagination (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:843:8)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/internal-bpp/employee/my-dashboard/employee_newsletters.cy.ts:69:22)",
                 "diff": null
               },
-              "uuid": "60529cb0-0bc5-4de8-840b-664b881a72cd",
-              "parentUUID": "088a0fa3-225b-449a-a9cf-e355d9bf189c",
+              "uuid": "66a6f112-7a0e-4a4b-809f-18e1057a78a0",
+              "parentUUID": "843fded3-0d0f-4fc8-b0d2-015be81f660d",
               "isHook": false,
               "skipped": false
             },
@@ -1677,7 +1677,7 @@
               "title": "Pagination: Validate select item per page by 200, correct list of rows and pages must be displayed",
               "fullTitle": "IBPP : Employee : Dashboard : Newsletters Pagination: Validate select item per page by 200, correct list of rows and pages must be displayed",
               "timedOut": null,
-              "duration": 20206,
+              "duration": 20295,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1690,8 +1690,8 @@
                 "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `p:contains(Items per page)`, but never found it.\n    at commonElements.get (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:47:37)\n    at scrollToItemPerPageBtn (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:745:21)\n    at __webpack_modules__../cypress/page-objects/pii-portal/common-elements.ts.commonElements.itemsPagination (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:843:8)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/internal-bpp/employee/my-dashboard/employee_newsletters.cy.ts:75:22)",
                 "diff": null
               },
-              "uuid": "7d2ced0f-afe0-4061-ba47-e205d73f0c33",
-              "parentUUID": "088a0fa3-225b-449a-a9cf-e355d9bf189c",
+              "uuid": "5de26df9-ba61-494c-94b9-0de5b8bf2721",
+              "parentUUID": "843fded3-0d0f-4fc8-b0d2-015be81f660d",
               "isHook": false,
               "skipped": false
             }
@@ -1699,23 +1699,23 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "17259500-bcd9-4ccd-8e57-8a321746031a",
-            "fcd576dc-324f-4935-ba28-aed06d8c0c2e",
-            "84346639-cc4a-48d6-ae1b-3e0a6b4e777c",
-            "18d3e49c-46ba-470f-997c-c62cfa4c999b",
-            "7aed414d-bbdc-40de-b11a-0c838ca7e7d6",
-            "60529cb0-0bc5-4de8-840b-664b881a72cd",
-            "7d2ced0f-afe0-4061-ba47-e205d73f0c33"
+            "8ecd3161-cbe5-4442-8651-08f359e5f6c5",
+            "30efb143-8c63-4920-8f9c-a12a55ba25ce",
+            "fc9a281e-81e6-4f07-be4c-9f169efa80ff",
+            "35d15b4f-d650-457e-ba1c-c20447a9d89b",
+            "ac01a164-c429-4cdd-9cce-a21e55d0d223",
+            "66a6f112-7a0e-4a4b-809f-18e1057a78a0",
+            "5de26df9-ba61-494c-94b9-0de5b8bf2721"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 155226,
+          "duration": 156800,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "f31da6ac-8e09-4507-b185-c54febe06513",
+          "uuid": "a9d9bfc6-f924-42b5-b562-dae940d2d462",
           "title": "IBPP : Employee : Dashboard : Sorting functionality",
           "fullFile": "",
           "file": "",
@@ -1726,7 +1726,7 @@
               "title": "Validate sorting Name in ASCENDING order",
               "fullTitle": "IBPP : Employee : Dashboard : Sorting functionality Validate sorting Name in ASCENDING order",
               "timedOut": null,
-              "duration": 35261,
+              "duration": 35396,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1739,8 +1739,8 @@
                 "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `th span:contains(Name)`, but never found it.\n    at sortingState (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:862:15)\n    at __webpack_modules__../cypress/page-objects/pii-portal/common-elements.ts.commonElements.sortingFunctionality (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:889:12)\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/newsletters.ts.myDashboardNewsletters.validateSorting (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/newsletters.ts:102:22)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/internal-bpp/employee/my-dashboard/employee_newsletters.cy.ts:85:19)",
                 "diff": null
               },
-              "uuid": "af2ef809-ad8a-4d4b-8621-233512c67e36",
-              "parentUUID": "f31da6ac-8e09-4507-b185-c54febe06513",
+              "uuid": "c98330fc-cd04-41f4-b039-82d8fdabbfbd",
+              "parentUUID": "a9d9bfc6-f924-42b5-b562-dae940d2d462",
               "isHook": false,
               "skipped": false
             },
@@ -1748,7 +1748,7 @@
               "title": "Validate sorting Name in DESCENDING order",
               "fullTitle": "IBPP : Employee : Dashboard : Sorting functionality Validate sorting Name in DESCENDING order",
               "timedOut": null,
-              "duration": 35284,
+              "duration": 35399,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1761,8 +1761,8 @@
                 "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `th span:contains(Name)`, but never found it.\n    at sortingState (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:862:15)\n    at __webpack_modules__../cypress/page-objects/pii-portal/common-elements.ts.commonElements.sortingFunctionality (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:889:12)\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/newsletters.ts.myDashboardNewsletters.validateSorting (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/newsletters.ts:102:22)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/internal-bpp/employee/my-dashboard/employee_newsletters.cy.ts:91:19)",
                 "diff": null
               },
-              "uuid": "93245937-a85b-4ebc-9db1-2b93cdf6f108",
-              "parentUUID": "f31da6ac-8e09-4507-b185-c54febe06513",
+              "uuid": "a3227668-e6e2-4956-92c4-235fbd3976c2",
+              "parentUUID": "a9d9bfc6-f924-42b5-b562-dae940d2d462",
               "isHook": false,
               "skipped": false
             },
@@ -1770,7 +1770,7 @@
               "title": "Validate sorting Published Column in ASCENDING order",
               "fullTitle": "IBPP : Employee : Dashboard : Sorting functionality Validate sorting Published Column in ASCENDING order",
               "timedOut": null,
-              "duration": 35266,
+              "duration": 35526,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1783,8 +1783,8 @@
                 "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `th span:contains(Published)`, but never found it.\n    at sortingState (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:862:15)\n    at __webpack_modules__../cypress/page-objects/pii-portal/common-elements.ts.commonElements.sortingFunctionality (webpack://pii-protect/./cypress/page-objects/pii-portal/common-elements.ts:889:12)\n    at __webpack_modules__../cypress/page-objects/pii-portal/my-dashboard/newsletters.ts.myDashboardNewsletters.validateSorting (webpack://pii-protect/./cypress/page-objects/pii-portal/my-dashboard/newsletters.ts:102:22)\n    at Context.eval (webpack://pii-protect/./cypress/e2e/internal-bpp/employee/my-dashboard/employee_newsletters.cy.ts:97:19)",
                 "diff": null
               },
-              "uuid": "dfd7c42b-7ddd-4037-b0d2-5c9a4682d03b",
-              "parentUUID": "f31da6ac-8e09-4507-b185-c54febe06513",
+              "uuid": "881a9b9f-c466-47b2-81b9-6c0645ea8bd2",
+              "parentUUID": "a9d9bfc6-f924-42b5-b562-dae940d2d462",
               "isHook": false,
               "skipped": false
             },
@@ -1792,7 +1792,7 @@
               "title": "Validate sorting Published Column in DESCENDING order",
               "fullTitle": "IBPP : Employee : Dashboard : Sorting functionality Validate sorting Published Column in DESCENDING order",
               "timedOut": null,
-              "duration": 30186,
+              "duration": 30246,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1802,11 +1802,11 @@
               "code": "NEWSLETTER.validateSorting('Published', 'descending');",
               "err": {
                 "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
-                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:212:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:219:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
                 "diff": null
               },
-              "uuid": "29bb5531-6eb2-4dee-b1a7-0cae0347dce5",
-              "parentUUID": "f31da6ac-8e09-4507-b185-c54febe06513",
+              "uuid": "2829f6ac-70ee-4275-8575-37241b364de5",
+              "parentUUID": "a9d9bfc6-f924-42b5-b562-dae940d2d462",
               "isHook": false,
               "skipped": false
             }
@@ -1814,14 +1814,14 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "af2ef809-ad8a-4d4b-8621-233512c67e36",
-            "93245937-a85b-4ebc-9db1-2b93cdf6f108",
-            "dfd7c42b-7ddd-4037-b0d2-5c9a4682d03b",
-            "29bb5531-6eb2-4dee-b1a7-0cae0347dce5"
+            "c98330fc-cd04-41f4-b039-82d8fdabbfbd",
+            "a3227668-e6e2-4956-92c4-235fbd3976c2",
+            "881a9b9f-c466-47b2-81b9-6c0645ea8bd2",
+            "2829f6ac-70ee-4275-8575-37241b364de5"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 135997,
+          "duration": 136567,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -1837,7 +1837,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "ff94ae3f-c631-41f9-bfa0-47d78c03538f",
+      "uuid": "fd1985ec-010c-4cda-9d9c-b87b7c3cbf62",
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_policies.cy.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_policies.cy.ts",
@@ -1846,7 +1846,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1a638274-ccd4-404d-bd30-09c326713fc8",
+          "uuid": "4de27f9e-0653-425b-9dc2-aa02bc1717c0",
           "title": "IBPP : Employee : Dashboard : Policy & Procedure",
           "fullFile": "",
           "file": "",
@@ -1867,10 +1867,10 @@
               "code": "POLICIES.viewPoliciesTab();\nPOLICIES.policyTypes('policies', 'default_items', null);",
               "err": {
                 "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
-                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:212:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:219:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
                 "diff": null
               },
-              "uuid": "c92b0d8c-5d9c-4d0b-af09-80d3056ac739",
+              "uuid": "2d012e3e-9d62-47df-b115-b2d045ea01d6",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -1888,7 +1888,7 @@
               "context": null,
               "code": "POLICIES.policyTypes('policies', 'existing_policies', 'IBPP');",
               "err": {},
-              "uuid": "f789f93f-0219-4c6e-9551-b637fa2c0849",
+              "uuid": "449b5037-18a6-42e4-8942-8af1dddbc0bb",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1906,7 +1906,7 @@
               "context": null,
               "code": "POLICIES.policyTypes('policies', 'validate_api_status', 'IBPP');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "4ef1ced6-324e-4f8d-96c8-3ccf13928b16",
+              "uuid": "78bcc25b-30e5-4bea-8b8a-c4e15afd2870",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1924,7 +1924,7 @@
               "context": null,
               "code": "POLICIES.policyTypes('policies', 'hide_created_modified_date', null);\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "3b9d5d6c-7321-4a0b-aa55-d32a98b2f676",
+              "uuid": "e0e5fa8f-8bbb-4762-92f0-67c3cee9b93c",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1942,7 +1942,7 @@
               "context": null,
               "code": "POLICIES.viewModalOtherPolicy('policies');\nCOMM_ELEMENTS.hideLoadingScreen();",
               "err": {},
-              "uuid": "6fc0ca6d-aa97-4c11-9352-34bce1520203",
+              "uuid": "ddfba011-d276-480d-a7ae-3e2ebf0a6da1",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -1951,14 +1951,14 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "c92b0d8c-5d9c-4d0b-af09-80d3056ac739"
+            "2d012e3e-9d62-47df-b115-b2d045ea01d6"
           ],
           "pending": [],
           "skipped": [
-            "f789f93f-0219-4c6e-9551-b637fa2c0849",
-            "4ef1ced6-324e-4f8d-96c8-3ccf13928b16",
-            "3b9d5d6c-7321-4a0b-aa55-d32a98b2f676",
-            "6fc0ca6d-aa97-4c11-9352-34bce1520203"
+            "449b5037-18a6-42e4-8942-8af1dddbc0bb",
+            "78bcc25b-30e5-4bea-8b8a-c4e15afd2870",
+            "e0e5fa8f-8bbb-4762-92f0-67c3cee9b93c",
+            "ddfba011-d276-480d-a7ae-3e2ebf0a6da1"
           ],
           "duration": 0,
           "root": false,
@@ -1976,7 +1976,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "7eabff06-fea0-4af9-8d68-7706c0332196",
+      "uuid": "d664969f-29bb-4f13-9d32-74b882e83528",
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_training.cy.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\my-dashboard\\employee_training.cy.ts",
@@ -1985,7 +1985,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "3946ca12-2746-481a-97c7-c0760ba1800d",
+          "uuid": "a673e77a-6459-4e75-adda-8bb44ef8c1c8",
           "title": "IBPP : Employee : Dashboard : Training",
           "fullFile": "",
           "file": "",
@@ -2006,10 +2006,10 @@
               "code": "TRAINING.completedCourses('default_items');",
               "err": {
                 "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
-                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:212:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:219:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
                 "diff": null
               },
-              "uuid": "4a5ebcb6-e872-4981-b249-436cc6d68f02",
+              "uuid": "419ae6f6-a137-4599-a146-2b52a0b7099a",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -2027,7 +2027,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('default_texts');",
               "err": {},
-              "uuid": "4260e82b-159f-4547-a2b2-c022341d8c76",
+              "uuid": "8f335911-d534-44b1-a73e-c594412a9781",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2045,7 +2045,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('security_training_videos');",
               "err": {},
-              "uuid": "96cff700-6fc6-4462-9d57-cc694095bd28",
+              "uuid": "256703d0-c510-48f9-9d31-85a954c6b458",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2063,7 +2063,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('complete_security_quiz');",
               "err": {},
-              "uuid": "72fd4777-770e-419a-ad21-84437a910d4b",
+              "uuid": "0219fdb8-565a-4f11-81df-f7d6cd6278d1",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2081,7 +2081,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('review_security_quiz');",
               "err": {},
-              "uuid": "c0b31ddc-84bc-46fa-8fc0-cc4c0f77f26f",
+              "uuid": "d860b091-644c-4bc1-b170-91216531d3a9",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2099,7 +2099,7 @@
               "context": null,
               "code": "TRAINING.completedCourses('print_certificate');",
               "err": {},
-              "uuid": "f94f1b18-eeea-462a-a0b2-c180ae49bb72",
+              "uuid": "a04be83c-3bfb-496f-ae65-f250cd802208",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2117,7 +2117,7 @@
               "context": null,
               "code": "TRAINING.enrolledCourses();",
               "err": {},
-              "uuid": "65c467b0-3199-4652-9622-e6daff7a61ee",
+              "uuid": "44b9a151-6e98-4b6c-81fd-7544fe12179a",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2126,16 +2126,16 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "4a5ebcb6-e872-4981-b249-436cc6d68f02"
+            "419ae6f6-a137-4599-a146-2b52a0b7099a"
           ],
           "pending": [],
           "skipped": [
-            "4260e82b-159f-4547-a2b2-c022341d8c76",
-            "96cff700-6fc6-4462-9d57-cc694095bd28",
-            "72fd4777-770e-419a-ad21-84437a910d4b",
-            "c0b31ddc-84bc-46fa-8fc0-cc4c0f77f26f",
-            "f94f1b18-eeea-462a-a0b2-c180ae49bb72",
-            "65c467b0-3199-4652-9622-e6daff7a61ee"
+            "8f335911-d534-44b1-a73e-c594412a9781",
+            "256703d0-c510-48f9-9d31-85a954c6b458",
+            "0219fdb8-565a-4f11-81df-f7d6cd6278d1",
+            "d860b091-644c-4bc1-b170-91216531d3a9",
+            "a04be83c-3bfb-496f-ae65-f250cd802208",
+            "44b9a151-6e98-4b6c-81fd-7544fe12179a"
           ],
           "duration": 0,
           "root": false,
@@ -2153,348 +2153,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "bdf6c13a-5e81-467f-9b94-c8675b764213",
-      "title": "",
-      "fullFile": "cypress\\e2e\\internal-bpp\\employee\\newsfeed\\common_scenarios.cy.ts",
-      "file": "cypress\\e2e\\internal-bpp\\employee\\newsfeed\\common_scenarios.cy.ts",
-      "beforeHooks": [],
-      "afterHooks": [],
-      "tests": [],
-      "suites": [
-        {
-          "uuid": "57b3c351-ceaa-49ff-86c1-74066aa65e8a",
-          "title": "IBPP :  Employee : Newsfeed : Notifications",
-          "fullFile": "",
-          "file": "",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "Default items should visible",
-              "fullTitle": "IBPP :  Employee : Newsfeed : Notifications Default items should visible",
-              "timedOut": null,
-              "duration": 0,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.verifyItemsIfExist('E');",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
-                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:212:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
-                "diff": null
-              },
-              "uuid": "44937708-b246-41e0-9701-f8d46cd97f8e",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Validate items inside notifications pane",
-              "fullTitle": "IBPP :  Employee : Newsfeed : Notifications Validate items inside notifications pane",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.commonScenarios('validate-notifications');",
-              "err": {},
-              "uuid": "b93c5be6-9574-4340-a033-f6762c65266b",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Validate Marking all notifications as read",
-              "fullTitle": "IBPP :  Employee : Newsfeed : Notifications Validate Marking all notifications as read",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.commonScenarios('validate-mark-all-read');",
-              "err": {},
-              "uuid": "ae9b3d81-1d9a-4e0d-b3ea-0f883f4b528a",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Validate clicking a notification from the notification pane",
-              "fullTitle": "IBPP :  Employee : Newsfeed : Notifications Validate clicking a notification from the notification pane",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.commonScenarios('validate-click-notification');",
-              "err": {},
-              "uuid": "1062be80-f002-45bf-9265-8fa4dd5fcd26",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            }
-          ],
-          "suites": [],
-          "passes": [],
-          "failures": [
-            "44937708-b246-41e0-9701-f8d46cd97f8e"
-          ],
-          "pending": [],
-          "skipped": [
-            "b93c5be6-9574-4340-a033-f6762c65266b",
-            "ae9b3d81-1d9a-4e0d-b3ea-0f883f4b528a",
-            "1062be80-f002-45bf-9265-8fa4dd5fcd26"
-          ],
-          "duration": 0,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": 2000
-        }
-      ],
-      "passes": [],
-      "failures": [],
-      "pending": [],
-      "skipped": [],
-      "duration": 0,
-      "root": true,
-      "rootEmpty": true,
-      "_timeout": 2000
-    },
-    {
-      "uuid": "6a915b48-3d8d-4800-b1ac-bc29fd87d1c3",
-      "title": "",
-      "fullFile": "cypress\\e2e\\internal-bpp\\employee\\newsfeed\\filter.cy.ts",
-      "file": "cypress\\e2e\\internal-bpp\\employee\\newsfeed\\filter.cy.ts",
-      "beforeHooks": [],
-      "afterHooks": [],
-      "tests": [],
-      "suites": [
-        {
-          "uuid": "d2a5c2ef-2216-4206-a7fb-05043f468fc8",
-          "title": "IBPP :  Employee : Newsfeed : Filters",
-          "fullFile": "",
-          "file": "",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "Validate all must exist items inside Advanced Filter",
-              "fullTitle": "IBPP :  Employee : Newsfeed : Filters Validate all must exist items inside Advanced Filter",
-              "timedOut": null,
-              "duration": 0,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.filter('must-exist-items');",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
-                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:212:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
-                "diff": null
-              },
-              "uuid": "337a07f4-0637-4be4-92e4-96c968e64aaa",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Validate filter by Micro Trainings, all post in timeline must all Micro Trainings",
-              "fullTitle": "IBPP :  Employee : Newsfeed : Filters Validate filter by Micro Trainings, all post in timeline must all Micro Trainings",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.filter('validate-filter-microtraining');",
-              "err": {},
-              "uuid": "9fca4569-ee99-42bf-bba4-c8b79bd1e4e9",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Validate filter by Newsletters, all post in timeline must all newsletters",
-              "fullTitle": "IBPP :  Employee : Newsfeed : Filters Validate filter by Newsletters, all post in timeline must all newsletters",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.filter('validate-filter-newsletters');",
-              "err": {},
-              "uuid": "96e17789-8704-4375-8956-f2121aa33982",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Negative: Validate setting published future dats to FROM and TO will return no results",
-              "fullTitle": "IBPP :  Employee : Newsfeed : Filters Negative: Validate setting published future dats to FROM and TO will return no results",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.filter('validate-invalid-publish');",
-              "err": {},
-              "uuid": "20f6a3b9-1b10-46a0-8b13-f29daee87aaa",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            },
-            {
-              "title": "Edge: Validate removing filter will display the timeline",
-              "fullTitle": "IBPP :  Employee : Newsfeed : Filters Edge: Validate removing filter will display the timeline",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.filter('validate-remove-filter');",
-              "err": {},
-              "uuid": "a1fd0640-a969-4257-aa26-ae72ced9cbc7",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            }
-          ],
-          "suites": [],
-          "passes": [],
-          "failures": [
-            "337a07f4-0637-4be4-92e4-96c968e64aaa"
-          ],
-          "pending": [],
-          "skipped": [
-            "9fca4569-ee99-42bf-bba4-c8b79bd1e4e9",
-            "96e17789-8704-4375-8956-f2121aa33982",
-            "20f6a3b9-1b10-46a0-8b13-f29daee87aaa",
-            "a1fd0640-a969-4257-aa26-ae72ced9cbc7"
-          ],
-          "duration": 0,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": 2000
-        }
-      ],
-      "passes": [],
-      "failures": [],
-      "pending": [],
-      "skipped": [],
-      "duration": 0,
-      "root": true,
-      "rootEmpty": true,
-      "_timeout": 2000
-    },
-    {
-      "uuid": "d8c787c8-1d93-41aa-8cc9-50e7589beb5c",
-      "title": "",
-      "fullFile": "cypress\\e2e\\internal-bpp\\employee\\newsfeed\\search.cy.ts",
-      "file": "cypress\\e2e\\internal-bpp\\employee\\newsfeed\\search.cy.ts",
-      "beforeHooks": [],
-      "afterHooks": [],
-      "tests": [],
-      "suites": [
-        {
-          "uuid": "b686755b-e896-472a-86bc-b73a4951e214",
-          "title": "IBPP :  Employee : Newsfeed : Search",
-          "fullFile": "",
-          "file": "",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "Validate searching by Hashtag, all post must has #searched Hastag",
-              "fullTitle": "IBPP :  Employee : Newsfeed : Search Validate searching by Hashtag, all post must has #searched Hastag",
-              "timedOut": null,
-              "duration": 0,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.search('search-valid-hashtag', 'Hashtag');",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
-                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:212:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
-                "diff": null
-              },
-              "uuid": "7624f3b5-4194-451c-8814-5b0fc3a888b3",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Validate API response after clicking 'Last Activity' from sort by selection",
-              "fullTitle": "IBPP :  Employee : Newsfeed : Search Validate API response after clicking 'Last Activity' from sort by selection",
-              "timedOut": null,
-              "duration": 0,
-              "state": "skipped",
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "NEWSFEED.search('last-activity', 'User');",
-              "err": {},
-              "uuid": "dcef1ee4-fc87-4037-aeb6-db11a8467612",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": true
-            }
-          ],
-          "suites": [],
-          "passes": [],
-          "failures": [
-            "7624f3b5-4194-451c-8814-5b0fc3a888b3"
-          ],
-          "pending": [],
-          "skipped": [
-            "dcef1ee4-fc87-4037-aeb6-db11a8467612"
-          ],
-          "duration": 0,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": 2000
-        }
-      ],
-      "passes": [],
-      "failures": [],
-      "pending": [],
-      "skipped": [],
-      "duration": 0,
-      "root": true,
-      "rootEmpty": true,
-      "_timeout": 2000
-    },
-    {
-      "uuid": "47b43381-9a16-4f1c-9c42-09412d60ea75",
+      "uuid": "6db4694e-18ad-487c-bf4c-3d86732c9c89",
       "title": "",
       "fullFile": "cypress\\e2e\\internal-bpp\\employee\\partner-profile\\billing_report.cy.ts",
       "file": "cypress\\e2e\\internal-bpp\\employee\\partner-profile\\billing_report.cy.ts",
@@ -2503,7 +2162,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "50606a09-f0ec-4971-af5f-53c98d9a2542",
+          "uuid": "e09c8bf3-fbb9-49ae-88aa-23a30f8553af",
           "title": "IBPP : Employee : Partner Profile : Billing Report",
           "fullFile": "",
           "file": "",
@@ -2524,10 +2183,10 @@
               "code": "BILLING_REPORT.verifyItemsIfExist();",
               "err": {
                 "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
-                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:212:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:219:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
                 "diff": null
               },
-              "uuid": "42735613-3822-4e0c-b52a-52210ecdec1c",
+              "uuid": "ae0b649f-8018-4dd0-8bce-669316b6194b",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -2545,7 +2204,7 @@
               "context": null,
               "code": "BILLING_REPORT.verifyTextsIfContains();",
               "err": {},
-              "uuid": "6b88fa09-a4a5-43e0-9814-a00132ffec66",
+              "uuid": "ad5459e7-a334-444a-809a-fb01bf535a0d",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2563,7 +2222,7 @@
               "context": null,
               "code": "BILLING_REPORT.downloadBillingStatement();",
               "err": {},
-              "uuid": "8eb9b7a4-a89c-461b-9410-7206039b8678",
+              "uuid": "d6f1df0b-1a2f-4a10-b0a2-f95c05a1e4c3",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2581,7 +2240,7 @@
               "context": null,
               "code": "BILLING_REPORT.downloadXLSFile();",
               "err": {},
-              "uuid": "d46f4cae-69f7-454a-8cf3-c1faea1cbd85",
+              "uuid": "98a365a8-f10c-4ca3-bb33-e39349de2bc4",
               "parentUUID": null,
               "isHook": false,
               "skipped": true
@@ -2590,13 +2249,354 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "42735613-3822-4e0c-b52a-52210ecdec1c"
+            "ae0b649f-8018-4dd0-8bce-669316b6194b"
           ],
           "pending": [],
           "skipped": [
-            "6b88fa09-a4a5-43e0-9814-a00132ffec66",
-            "8eb9b7a4-a89c-461b-9410-7206039b8678",
-            "d46f4cae-69f7-454a-8cf3-c1faea1cbd85"
+            "ad5459e7-a334-444a-809a-fb01bf535a0d",
+            "d6f1df0b-1a2f-4a10-b0a2-f95c05a1e4c3",
+            "98a365a8-f10c-4ca3-bb33-e39349de2bc4"
+          ],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "abfdb309-206c-41b4-8e9e-15bf40ca95eb",
+      "title": "",
+      "fullFile": "cypress\\e2e\\internal-bpp\\employee\\newsfeed\\common_scenarios.cy.ts",
+      "file": "cypress\\e2e\\internal-bpp\\employee\\newsfeed\\common_scenarios.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ee4221fa-cc28-410d-aa88-1402525848ce",
+          "title": "IBPP :  Employee : Newsfeed : Notifications",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Default items should visible",
+              "fullTitle": "IBPP :  Employee : Newsfeed : Notifications Default items should visible",
+              "timedOut": null,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.verifyItemsIfExist('E');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:219:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
+                "diff": null
+              },
+              "uuid": "d979fd4a-563b-47c3-9a5b-f105239174fa",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate items inside notifications pane",
+              "fullTitle": "IBPP :  Employee : Newsfeed : Notifications Validate items inside notifications pane",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.commonScenarios('validate-notifications');",
+              "err": {},
+              "uuid": "5cb890d3-33ca-4cf7-a312-cf4ce75247fe",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Validate Marking all notifications as read",
+              "fullTitle": "IBPP :  Employee : Newsfeed : Notifications Validate Marking all notifications as read",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.commonScenarios('validate-mark-all-read');",
+              "err": {},
+              "uuid": "195bfba1-e660-406b-85a5-9be3094b52b6",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Validate clicking a notification from the notification pane",
+              "fullTitle": "IBPP :  Employee : Newsfeed : Notifications Validate clicking a notification from the notification pane",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.commonScenarios('validate-click-notification');",
+              "err": {},
+              "uuid": "6871e994-52ce-4784-bc90-f1c91a87cb4c",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "d979fd4a-563b-47c3-9a5b-f105239174fa"
+          ],
+          "pending": [],
+          "skipped": [
+            "5cb890d3-33ca-4cf7-a312-cf4ce75247fe",
+            "195bfba1-e660-406b-85a5-9be3094b52b6",
+            "6871e994-52ce-4784-bc90-f1c91a87cb4c"
+          ],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "f464ca6c-9ff7-4ccb-8ce9-8c9e3c8254c5",
+      "title": "",
+      "fullFile": "cypress\\e2e\\internal-bpp\\employee\\newsfeed\\filter.cy.ts",
+      "file": "cypress\\e2e\\internal-bpp\\employee\\newsfeed\\filter.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a560cdb6-6f43-421b-8e61-268972c3a18e",
+          "title": "IBPP :  Employee : Newsfeed : Filters",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate all must exist items inside Advanced Filter",
+              "fullTitle": "IBPP :  Employee : Newsfeed : Filters Validate all must exist items inside Advanced Filter",
+              "timedOut": null,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.filter('must-exist-items');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:219:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
+                "diff": null
+              },
+              "uuid": "49745e37-6fe3-4b53-90dc-fa333f1038ab",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate filter by Micro Trainings, all post in timeline must all Micro Trainings",
+              "fullTitle": "IBPP :  Employee : Newsfeed : Filters Validate filter by Micro Trainings, all post in timeline must all Micro Trainings",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.filter('validate-filter-microtraining');",
+              "err": {},
+              "uuid": "4846f7b6-008c-467b-b171-626c5c85e834",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Validate filter by Newsletters, all post in timeline must all newsletters",
+              "fullTitle": "IBPP :  Employee : Newsfeed : Filters Validate filter by Newsletters, all post in timeline must all newsletters",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.filter('validate-filter-newsletters');",
+              "err": {},
+              "uuid": "15e2b02c-4a18-467f-b0b9-ee2bc74a915f",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Negative: Validate setting published future dats to FROM and TO will return no results",
+              "fullTitle": "IBPP :  Employee : Newsfeed : Filters Negative: Validate setting published future dats to FROM and TO will return no results",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.filter('validate-invalid-publish');",
+              "err": {},
+              "uuid": "2caf598f-ca99-447d-bfcc-cd53172bcc06",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Edge: Validate removing filter will display the timeline",
+              "fullTitle": "IBPP :  Employee : Newsfeed : Filters Edge: Validate removing filter will display the timeline",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.filter('validate-remove-filter');",
+              "err": {},
+              "uuid": "f639adba-972f-459f-9d5c-679cfcca882b",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "49745e37-6fe3-4b53-90dc-fa333f1038ab"
+          ],
+          "pending": [],
+          "skipped": [
+            "4846f7b6-008c-467b-b171-626c5c85e834",
+            "15e2b02c-4a18-467f-b0b9-ee2bc74a915f",
+            "2caf598f-ca99-447d-bfcc-cd53172bcc06",
+            "f639adba-972f-459f-9d5c-679cfcca882b"
+          ],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "292b6a66-599d-4b84-8aeb-b398c4df3bca",
+      "title": "",
+      "fullFile": "cypress\\e2e\\internal-bpp\\employee\\newsfeed\\search.cy.ts",
+      "file": "cypress\\e2e\\internal-bpp\\employee\\newsfeed\\search.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "56313009-813e-467a-8de3-893755ed5184",
+          "title": "IBPP :  Employee : Newsfeed : Search",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate searching by Hashtag, all post must has #searched Hastag",
+              "fullTitle": "IBPP :  Employee : Newsfeed : Search Validate searching by Hashtag, all post must has #searched Hastag",
+              "timedOut": null,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.search('search-valid-hashtag', 'Hashtag');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
+                "estack": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `[data-ga-button=\"Logout\"]`, but never found it.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\n    at LogoutPage.get (webpack://pii-protect/./cypress/page-objects/pii-portal/logout.ts:8:34)\n    at Context.eval (webpack://pii-protect/./cypress/support/commands.ts:219:11)\n    at wrapped (https://portal.breachsecurenow.com/__cypress/runner/cypress_runner.js:139902:43)",
+                "diff": null
+              },
+              "uuid": "f1c70e90-8308-485d-ba90-1911e2c5a6fb",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate API response after clicking 'Last Activity' from sort by selection",
+              "fullTitle": "IBPP :  Employee : Newsfeed : Search Validate API response after clicking 'Last Activity' from sort by selection",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "NEWSFEED.search('last-activity', 'User');",
+              "err": {},
+              "uuid": "b1ad3509-a1c6-4677-8846-d0efcb4cfeb4",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "f1c70e90-8308-485d-ba90-1911e2c5a6fb"
+          ],
+          "pending": [],
+          "skipped": [
+            "b1ad3509-a1c6-4677-8846-d0efcb4cfeb4"
           ],
           "duration": 0,
           "root": false,
